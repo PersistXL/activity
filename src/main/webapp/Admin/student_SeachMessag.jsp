@@ -1,5 +1,5 @@
 <%@ page import="java.util.List" %>
-<%@ page import="com.eu.sams.entity.StudentBean" %><%--
+<%@ page import="com.eu.persistxl.activeity.entity.StudentBean" %><%--
   Created by IntelliJ IDEA.
   User: 马欢欢
   Date: 2017/6/9
