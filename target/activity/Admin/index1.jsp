@@ -1,8 +1,7 @@
 <%@ page import="net.sf.json.JSONArray" %>
 <%@ page import="java.util.*" %>
-<%@ page import="com.eu.persistxl.activeity.entity.StudentBean" %>
-<%@ page import="com.eu.persistxl.activeity.entity.TeacherBean" %>
-<%@ page import="com.eu.persistxl.activeity.entity.AdminBean" %>
+<%@ page import="com.eu.persistxl.activeity.entity.UserBean" %>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@page isELIgnored="false" %>
 

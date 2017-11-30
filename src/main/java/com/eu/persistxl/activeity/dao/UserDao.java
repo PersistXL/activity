@@ -1,6 +1,5 @@
 package com.eu.persistxl.activeity.dao;
 
-import com.eu.persistxl.activeity.entity.StudentBean;
 import com.eu.persistxl.activeity.entity.UserBean;
 
 import java.util.List;
