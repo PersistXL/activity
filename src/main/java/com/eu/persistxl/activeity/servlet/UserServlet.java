@@ -1,10 +1,9 @@
 package com.eu.persistxl.activeity.servlet;
 
-import com.eu.persistxl.activeity.entity.AdminBean;
-import com.eu.persistxl.activeity.entity.StudentBean;
-import com.eu.persistxl.activeity.entity.TeacherBean;
-import com.eu.persistxl.activeity.service.IUserSerivce;
-import com.eu.persistxl.activeity.service.impl.UserService;
+
+import com.eu.persistxl.activeity.entity.UserBean;
+import com.eu.persistxl.activeity.service.UserService;
+import com.eu.persistxl.activeity.service.impl.UserServiceImpl;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -15,12 +14,13 @@ import java.util.*;
 import java.io.IOException;
 
 /**
- * Created by 马欢欢 on 2017/6/6.
+ *
+ * @author 李昕勵
+ * @date 2017/11/30
  */
 @WebServlet(name = "UserServlet",urlPatterns = "/UserServlet")
 public class UserServlet extends HttpServlet {
-    IUserSerivce userSerivce =new UserService();
-
+    UserService userService =new UserServiceImpl();
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         doPost(req,resp);
@@ -31,7 +31,12 @@ public class UserServlet extends HttpServlet {
         resp.setContentType("text/html;charset=utf-8");
         req.setCharacterEncoding("utf-8");
         String method = req.getParameter("method");
-        if(method.equals("slogin")){
+        if (method.equals("login")) {
+            login(req, resp);
+        } else if (method.equals("logout")) {
+            logout(req, resp);
+        }
+ /*       if(method.equals("slogin")){
             slogin(req,resp);
         }else
         if (method.equals("tlogin")){
@@ -42,22 +47,23 @@ public class UserServlet extends HttpServlet {
         }else
         if (method.equals("logout")){
             logout(req,resp);
-        }
+        }*/
     }
-    protected void slogin(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        StudentBean studentBean = new StudentBean();
-        studentBean.setS_username(req.getParameter("username"));
-        studentBean.setS_password(req.getParameter("password"));
-        List<StudentBean> slist= userSerivce.Slogin(studentBean);
-        if(slist !=null){
-            req.getSession().setAttribute("info",slist);
-            req.getSession().setAttribute("identity","student");
+    protected void login(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        UserBean userBean = new UserBean();
+        userBean.setU_userid(req.getParameter("username"));
+        userBean.setU_password(req.getParameter("password"));
+        List<UserBean> list= userService.login(userBean);
+        if(list !=null){
+//            req.getSession().setAttribute("info",list);
+//            req.getSession().setAttribute("identity","user");
             resp.sendRedirect(req.getContextPath() + "/Admin/index1.jsp");
         } else {
             req.setAttribute("err","用户名或密码有误，请重新登录");
             req.getRequestDispatcher("/index.jsp").forward(req,resp);
         }
     }
+    /*
     protected void tlogin(HttpServletRequest req,HttpServletResponse resp)throws ServletException,IOException{
         TeacherBean teacherBean=new TeacherBean();
         teacherBean.setT_username(req.getParameter("username"));
@@ -85,8 +91,8 @@ public class UserServlet extends HttpServlet {
         }else {
             request.setAttribute("err","用户名或密码错误，请重新登录");
             response.sendRedirect(request.getContextPath()+"/Admin/index.jsp");
-        }
-    }
+        }*/
+
 protected void logout(HttpServletRequest request,HttpServletResponse response) throws ServletException,IOException{
             request.getSession().removeAttribute("info");
             request.getSession().removeAttribute("err");

@@ -1,8 +1,8 @@
 <%@ page import="net.sf.json.JSONArray" %>
 <%@ page import="java.util.*" %>
-<%@ page import="com.eu.sams.entity.StudentBean" %>
-<%@ page import="com.eu.sams.entity.TeacherBean" %>
-<%@ page import="com.eu.sams.entity.AdminBean" %>
+<%@ page import="com.eu.persistxl.activeity.entity.StudentBean" %>
+<%@ page import="com.eu.persistxl.activeity.entity.TeacherBean" %>
+<%@ page import="com.eu.persistxl.activeity.entity.AdminBean" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@page isELIgnored="false" %>
 
@@ -12,7 +12,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>学生成绩管理系统</title>
+    <title>工作室活动记录管理系统</title>
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -30,36 +30,37 @@
 </head>
 
 <body>
-<%
-    List list = (List) session.getAttribute("info");
-    if (list == null) {
-        response.sendRedirect(request.getContextPath() + "/index.jsp");
-    } else {
-%>
+<%--<%--%>
+    <%--List list = (List) session.getAttribute("info");--%>
+    <%--if (list == null) {--%>
+        <%--response.sendRedirect(request.getContextPath() + "/index.jsp");--%>
+    <%--} else {--%>
+<%--%>--%>
 <script type="text/javascript">
     //        权限设置
     var rank = 0;
-    <%
-    if (session.getAttribute("identity") == "student") {
-        StudentBean studentBean = (StudentBean) list.get(0);
+    <%--<%--%>
+    <%--if (session.getAttribute("identity") == "student") {--%>
+        <%--StudentBean studentBean = (StudentBean) list.get(0);--%>
 
-    %>
-    rank = <%=studentBean.getS_rank()%>
+    <%--%>--%>
+    <%--rank = <%=studentBean.getS_rank()%>--%>
+    rank = 1;
 
-    <%
-    }  else if (session.getAttribute("identity") == "teacher") {
-        TeacherBean teacherBean = (TeacherBean) list.get(0);
-    %>
-        rank = <%=teacherBean.getT_rank()%>
+    <%--<%--%>
+    <%--}  else if (session.getAttribute("identity") == "teacher") {--%>
+        <%--TeacherBean teacherBean = (TeacherBean) list.get(0);--%>
+    <%--%>--%>
+        <%--rank = <%=teacherBean.getT_rank()%>--%>
 
-    <%
-        } else if (session.getAttribute("identity") == "admin") {
-           AdminBean adminBean=(AdminBean) list.get(0);
-     %>
-            rank = <%=adminBean.getA_trank()%>
-    <%
-    }
-    %>
+    <%--<%--%>
+        <%--} else if (session.getAttribute("identity") == "admin") {--%>
+           <%--AdminBean adminBean=(AdminBean) list.get(0);--%>
+     <%--%>--%>
+            <%--rank = <%=adminBean.getA_trank()%>--%>
+    <%--<%--%>
+    <%--}--%>
+    <%--%>--%>
 </script>
 <script type="text/javascript" src="datas/nav.js"></script>
 <script src="js/index.js"></script>
@@ -69,7 +70,7 @@
         <div class="layui-main">
             <div class="admin-login-box">
                 <a class="logo" style="left: 0;" href="http://beginner.zhengjinfan.cn/demo/beginner_admin/">
-                    <span style="font-size: 22px;">学生成绩管理系统</span>
+                    <span style="font-size: 16px;">工作室活动记录管理系统</span>
                 </a>
                 <div class="admin-side-toggle">
                     <i class="fa fa-bars" aria-hidden="true"></i>
@@ -79,30 +80,30 @@
                 <li class="layui-nav-item">
                     <a href="javascript:;" class="admin-header-user">
 
-                        <%
-                            if (session.getAttribute("identity") == "student") {
-                                StudentBean studentBean = (StudentBean) list.get(0);
-                        %>
+                        <%--<%--%>
+                            <%--if (session.getAttribute("identity") == "student") {--%>
+                                <%--StudentBean studentBean = (StudentBean) list.get(0);--%>
+                        <%--%>--%>
                         <img src="images/0.jpg"/>
-                        <span><%=studentBean.getS_username()%></span>
+                        <span>管理员</span>
 
 
-                        <%
-                        } else if (session.getAttribute("identity") == "teacher") {
-                            TeacherBean teacherBean = (TeacherBean) list.get(0);
-                        %>
-                        <img src="images/ba.jpg"/>
-                        <span><%=teacherBean.getT_username()%></span>
+                        <%--<%--%>
+                        <%--} else if (session.getAttribute("identity") == "teacher") {--%>
+                            <%--TeacherBean teacherBean = (TeacherBean) list.get(0);--%>
+                        <%--%>--%>
+                        <%--<img src="images/ba.jpg"/>--%>
+                        <%--<span><%=teacherBean.getT_username()%></span>--%>
 
-                        <%
-                        } else if (session.getAttribute("identity") == "admin") {
-                            AdminBean adminBean=(AdminBean) list.get(0);
-                        %>
-                        <img src="images/ww.jpg"/>
-                        <span><%=adminBean.getA_username() %></span>
-                        <%
-                            }
-                        %>
+                        <%--<%--%>
+                        <%--} else if (session.getAttribute("identity") == "admin") {--%>
+                            <%--AdminBean adminBean=(AdminBean) list.get(0);--%>
+                        <%--%>--%>
+                        <%--<img src="images/ww.jpg"/>--%>
+                        <%--<span><%=adminBean.getA_username() %></span>--%>
+                        <%--<%--%>
+                            <%--}--%>
+                        <%--%>--%>
                     </a>
                     <dl class="layui-nav-child">
                         <dd>
@@ -154,7 +155,7 @@
     <div class="layui-footer footer footer-demo" id="admin-footer">
         <div class="layui-main">
             <p>2017 &copy;
-                <a href="http://www.mycodes.net/" target="_blank">学生成绩管理系统</a>  Student result management system
+                <a href="http://www.mycodes.net/" target="_blank">工作室活动记录管理系统</a>  Studio activity record management system
             </p>
         </div>
     </div>
@@ -192,6 +193,6 @@
 </body>
 
 </html>
-<%
-    }
-%>
+<%--<%--%>
+    <%--}--%>
+<%--%>--%>

@@ -54,7 +54,7 @@ var navs3 = [{
 ];
 
 
-//学生
+//用户
 var navs1 = [{
     "title": "我的信息",
     "icon": "fa fa-mortar-board ",
@@ -62,31 +62,36 @@ var navs1 = [{
     "children": [{
         "title": "信息详情",
         "icon": " fa fa-id-card",
-        "href": "student_info.jsp"
+        "href": "../change/user_info.jsp"
     }]
 }, {
-    "title": "查看成绩",
+    "title": "发布活动",
     "icon": "fa fa-bank",
     "spread": false,
     "children": [{
-        "title": "查看成绩信息",
+        "title": "查看活动详细信息",
         "icon": "fa-check-square-o",
-        "href": "student_score.jsp"
-    }]
+        "href": "../change/active.jsp"
+    },
+        {
+            "title": "书写活动内容",
+            "icon": "fa-check-square-o",
+            "href": "../change/release_activity.jsp"
+        }]
 },
     {
-        "title": "给老师留言评价",
+        "title": "给出活动评价",
         "icon": "fa fa-bank",
         "spread": false,
         "children": [{
-            "title": "留言板",
+            "title": "活动评价",
             "icon": "fa-check-square-o",
-            "href": "student_evaluaate.jsp"
+            "href": "../change/new_message.jsp"
 		},
             {
-                "title": "查看老师通告",
+                "title": "查看系统通告",
                 "icon": "fa-check-square-o",
-                "href": "student_SeachMessag.jsp"
+                "href": "../change/seachMessag.jsp"
             }
 		]
     },{
@@ -96,11 +101,11 @@ var navs1 = [{
     "children": [{
         "title": "我们的简介",
         "icon": "&#xe641;",
-        "href": "asd.html"
+        "href": "../change/about.jsp"
     }, {
         "title": "联系我们",
         "icon": " fa fa-envelope",
-        "href": "Contact_us.html"
+        "href": "../change/contact_us.jsp"
     }]
 }
 ];
@@ -120,7 +125,7 @@ var navs1 = [{
 * */
 
 //老师
-var navs2 = [ {
+/*var navs2 = [ {
     "title": "老师信息",
     "icon": "fa fa-user",
     "spread": false,
@@ -154,7 +159,7 @@ var navs2 = [ {
         }
     ]
 },
-    /*{
+    /!*{
     "title": "课程详情",
     "icon": "fa-address-book",
     "href": "",
@@ -164,7 +169,7 @@ var navs2 = [ {
         "icon": "fa fa-dedent",
         "href": "weiwancheng.html"
     }]
-},*/
+},*!/
 	{
     "title": "关于我们",
     "icon": "fa fa-hand-o-right",
@@ -179,4 +184,4 @@ var navs2 = [ {
         "href": "Contact_us.html"
     }]
 }
-];
+];*/

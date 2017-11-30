@@ -23,7 +23,9 @@
 			</div>
 			<h1>登录</h1>
 			<div class="login-top">
-			<form>
+			<form action="${pageContext.request.contextPath}/UserServlet?method=login"
+				  class="login-form fv-form fv-form-bootstrap" method="post" id="loginForm"
+				  novalidate="novalidate">
 				<div class="login-ic">
 					<i ></i>
 					<input type="text" name="username" placeholder="请输入用户名" />
@@ -35,11 +37,11 @@
 					<div class="clear"> </div>
 				</div>
 				<div class="log-bwn">
-					<input type="submit"  value="登录" >
+					<input type="submit" value="登录" >
 				</div>
 				</form>
 			</div>
-    <br /><br /><br /><br /><br /><br /><br /><br />
+
 			<p class="copy">© 2017 ThoughtWorks工作室活动记录</p>
 </div>		
 <!--header start here-->

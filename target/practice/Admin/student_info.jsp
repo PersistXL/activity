@@ -1,4 +1,4 @@
-<%@ page import="com.eu.sams.entity.StudentBean" %>
+<%@ page import="com.eu.persistxl.activeity.entity.StudentBean" %>
 <%@ page import="java.util.List" %>
 <%--
   Created by IntelliJ IDEA.
