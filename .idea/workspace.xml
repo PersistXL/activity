@@ -2,473 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48764698-e0e2-4503-8da6-1835bdadf9a1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/IAdminDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/IAdminStuCourseDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/ICurriseDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/IEvaluateDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/IScoreDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/IStudentDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/ITeacherDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/AdminDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/AdminStuCourseDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/CurriseDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/EvaluateDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/ScoreDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/StudentDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/TeacherDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/entity/AdminBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/entity/CurriseBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/entity/EvaluateBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/entity/ScoreBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/entity/StudentBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/entity/TeacherBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/IAdminService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/IAdminStuCurriseService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/ICurriseService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/IEvaluateService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/IScoreService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/IStudentService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/ITeacherService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/impl/AdminService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/impl/AdminStuCurriseService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/impl/CurriseService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/impl/EvaluateService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/impl/ScoreService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/impl/StudentService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/impl/TeacherService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/AdminServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/AdminStuCurriseServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/CurriseServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/EvaluateServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/ScoreServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/StudentServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/TeacherServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/Admin_StudentInfo.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/Admin_StudentScore.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/Admin_TeacherInfo.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/Admin_currise.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/Contact_us.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/Teacher_info.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/asd.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/begtable.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/paging.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/student_SeachMessag.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/student_evaluaate.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/student_info.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/student_score.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/teacher_SeachMessag.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/teacher_evaluaate.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/teacher_score.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/weiwancheng.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/Admin_StudentInfo.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/Admin_StudentScore.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/Admin_TeacherInfo.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/Admin_currise.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/Contact_us.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/Teacher_info.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/asd.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/begtable.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/css/animsition.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/css/begtable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/css/bootstrap-select.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/css/eu_manage.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/css/formValidation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/css/global.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/css/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/css/login.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/css/site.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/css/table.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/css/web-icons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/datas/area_data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/datas/laytpl_laypage_data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/datas/nav.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/datas/nav_content.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/datas/nav_member.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/images/0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/images/ba.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/images/back.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/images/logo-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/images/ww.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/index1.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/js/bootstrap-select.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/js/button_js.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/js/city.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/js/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/js/formValidation.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/js/layout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/js/layui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/js/navbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/js/paging.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/js/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/js/validator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/paging.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/font-awesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/layui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/code.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/_all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/aero.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/aero.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/aero@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/blue@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/flat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/flat@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/green@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/grey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/grey@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/orange@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/pink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/pink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/pink@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/purple@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/red@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/flat/yellow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/futurico/futurico.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/futurico/futurico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/futurico/futurico@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/icheck.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/line/_all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/line/aero.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/line/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/line/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/line/grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/line/line.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/line/line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/line/line@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/line/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/line/pink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/line/purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/line/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/line/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/_all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/aero.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/aero.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/aero@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/blue@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/green@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/grey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/grey@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/minimal.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/minimal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/minimal@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/orange@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/pink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/pink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/pink@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/purple@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/red@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/minimal/yellow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/polaris/polaris.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/polaris/polaris.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/polaris/polaris@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/_all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/aero.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/aero.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/aero@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/blue@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/green@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/grey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/grey@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/orange@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/pink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/pink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/pink@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/purple@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/red@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/square.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/square.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/square@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/icheck/square/yellow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/laydate/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/laydate/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/layer/default/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/layer/default/layer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/css/modules/layer/default/loading-2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/font/iconfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/font/iconfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/font/iconfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/font/iconfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/10.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/11.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/12.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/13.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/14.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/15.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/16.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/17.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/18.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/19.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/20.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/21.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/22.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/23.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/24.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/25.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/26.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/27.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/28.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/29.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/3.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/30.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/31.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/32.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/33.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/34.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/35.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/36.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/37.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/38.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/39.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/4.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/40.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/41.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/42.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/43.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/44.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/45.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/46.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/47.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/48.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/49.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/5.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/50.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/51.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/52.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/53.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/54.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/55.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/56.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/57.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/58.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/59.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/6.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/60.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/61.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/62.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/63.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/64.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/65.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/66.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/67.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/68.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/69.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/7.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/70.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/71.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/8.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/images/face/9.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/lay/dest/layui.all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/lay/dest/layui.mod.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/lay/lib/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/lay/modules/code.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/lay/modules/element.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/lay/modules/flow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/lay/modules/form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/lay/modules/laydate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/lay/modules/layedit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/lay/modules/layer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/lay/modules/laypage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/lay/modules/laytpl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/lay/modules/tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/lay/modules/upload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/lay/modules/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/layui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/modules/icheck.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/modules/pjax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/student_SeachMessag.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/student_evaluaate.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/student_info.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/student_score.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/teacher_SeachMessag.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/teacher_evaluaate.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/teacher_score.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/temp/edit-form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/Admin/weiwancheng.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/dao/IAdminDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/dao/IAdminStuCourseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/dao/ICurriseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/dao/IEvaluateDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/dao/IScoreDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/dao/IStudentDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/dao/ITeacherDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/dao/UserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/dao/impl/AdminDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/dao/impl/AdminStuCourseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/dao/impl/CurriseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/dao/impl/EvaluateDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/dao/impl/ScoreDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/dao/impl/StudentDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/dao/impl/TeacherDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/dao/impl/UserDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/entity/AdminBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/entity/CurriseBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/entity/EvaluateBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/entity/ScoreBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/entity/StudentBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/entity/TeacherBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/entity/UserBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/service/IAdminService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/service/IAdminStuCurriseService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/service/ICurriseService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/service/IEvaluateService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/service/IScoreService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/service/IStudentService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/service/ITeacherService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/service/UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/service/impl/AdminService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/service/impl/AdminStuCurriseService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/service/impl/CurriseService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/service/impl/EvaluateService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/service/impl/ScoreService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/service/impl/StudentService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/service/impl/TeacherService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/service/impl/UserServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/servlet/AdminServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/servlet/AdminStuCurriseServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/servlet/CurriseServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/servlet/EvaluateServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/servlet/ScoreServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/servlet/StudentServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/servlet/TeacherServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/servlet/UserServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/utils/BaseDaoutil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/utils/ConnUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/rebel-remote.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/rebel.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/lib/c3p0-0.9.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/lib/commons-collections-3.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/lib/commons-lang-2.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/lib/ezmorph-1.0.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/lib/junit-4.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/lib/mysql-connector-java-5.1.18.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/change/about.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/change/active.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/change/contact_us.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/change/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/change/images/01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/change/images/bbb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/change/images/group.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/change/images/l.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/change/images/m.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/change/new_message.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/change/release_activity.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/change/seachMessag.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/change/user_info.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/activity/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/dao/IAdminDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/dao/IAdminStuCourseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/dao/ICurriseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/dao/IEvaluateDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/dao/IScoreDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/dao/IStudentDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/dao/ITeacherDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/dao/impl/AdminDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/dao/impl/AdminStuCourseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/dao/impl/CurriseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/dao/impl/EvaluateDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/dao/impl/ScoreDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/dao/impl/StudentDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/dao/impl/TeacherDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/entity/AdminBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/entity/CurriseBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/entity/EvaluateBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/entity/ScoreBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/entity/StudentBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/entity/TeacherBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/service/IAdminService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/service/IAdminStuCurriseService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/service/ICurriseService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/service/IEvaluateService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/service/IScoreService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/service/IStudentService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/service/ITeacherService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/service/impl/AdminService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/service/impl/AdminStuCurriseService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/service/impl/CurriseService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/service/impl/EvaluateService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/service/impl/ScoreService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/service/impl/StudentService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/service/impl/TeacherService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/servlet/AdminServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/servlet/AdminStuCurriseServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/servlet/CurriseServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/servlet/EvaluateServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/servlet/ScoreServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/servlet/StudentServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/servlet/TeacherServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/change/images/0.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/index1.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Admin/index1.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/change/user_info.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/change/user_info.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/activity/change/user_info.jsp" afterPath="$PROJECT_DIR$/target/activity/change/user_info.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -490,84 +27,6 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="sams@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="sams@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="sams" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="sams@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="sams" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="students" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="sams@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="sams" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="score" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="sams@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="sams" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="admin" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
     <PATH>
       <PATH_ELEMENT>
         <option name="myItemId" />
@@ -606,22 +65,10 @@
       <file leaf-file-name="UserServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/UserServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-357">
+            <state relative-caret-position="336">
               <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index1.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/index1.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2415">
-              <caret line="181" column="32" lean-forward="false" selection-start-line="181" selection-start-column="32" selection-end-line="181" selection-end-column="32" />
-              <folding>
-                <element signature="e#2413#2429#0#HTML" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -630,8 +77,28 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="25" column="80" lean-forward="false" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
+            <state relative-caret-position="256">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/datas/nav.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1554">
+              <caret line="74" column="6" lean-forward="false" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_info.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/change/user_info.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-105">
+              <caret line="49" column="6" lean-forward="false" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -642,7 +109,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
               <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -655,6 +124,7 @@
         <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -669,10 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/Admin/student_evaluaate.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Admin/Admin_StudentScore.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Admin/asd.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Admin/Contact_us.html" />
         <option value="$PROJECT_DIR$/target/classes/c3p0-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/c3p0-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/eu/sams/utils/ConnUtil.java" />
@@ -703,7 +169,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b5c3064e-3eff-4ba9-a4d8-098953cb85bf/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/utils/BaseDaoutil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/java/com/eu/persistxl/activeity/entity/EvaluateBean.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/UserService.java" />
@@ -720,6 +185,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/TeacherServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/Admin/Admin_currise.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/Admin/index1.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Admin/user_info.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/change/user_info.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/test.html" />
+        <option value="$PROJECT_DIR$/src/main/java/test.html" />
       </list>
     </option>
   </component>
@@ -766,6 +236,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -822,7 +294,123 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="change" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="change" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1064,29 +652,31 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Java/sams" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/change/images" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/Admin" />
       <recent name="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl" />
       <recent name="$PROJECT_DIR$/.." />
       <recent name="$PROJECT_DIR$/src/main/webapp/change" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main/webapp/change/images" />
     </key>
   </component>
@@ -1102,7 +692,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Unnamed">
+  <component name="RunManager" selected="JavaScript Debug.test.html">
+    <configuration default="false" name="test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/test.html">
+      <method />
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -1213,7 +806,7 @@
       <deployment />
       <server-settings>
         <data>
-          <option name="transportHostId" />
+          <option name="transportHostId" value="" />
           <host-id />
         </data>
       </server-settings>
@@ -1714,9 +1307,15 @@
         </option>
       </method>
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -1776,15 +1375,17 @@
       <workItem from="1512006811275" duration="96000" />
       <workItem from="1512006955052" duration="143000" />
       <workItem from="1512007120694" duration="8504000" />
-      <workItem from="1512015776742" duration="3452000" />
+      <workItem from="1512015776742" duration="8624000" />
+      <workItem from="1512038867324" duration="3282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="295468000" />
+    <option name="totallyTimeSpent" value="303922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1800,7 +1401,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38621444" sideWeight="0.49571735" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38621444" sideWeight="0.49571735" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25382933" sideWeight="0.49785867" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1810,10 +1411,9 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3107221" sideWeight="0.49571735" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20663811" sideWeight="0.3894967" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25749466" sideWeight="0.5684039" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20931478" sideWeight="0.40106952" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20663811" sideWeight="0.5989305" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20396146" sideWeight="0.61050326" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3391685" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25749466" sideWeight="0.5684039" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1822,6 +1422,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3391685" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1841,77 +1442,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/change/release_activity.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/change/seachMessag.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/change/about.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/entity/StudentBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="12" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f1fa4e6d/371de9bb-c315-4494-b60f-8708b488e5b8/sams.students">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/371de9bb-c315-4494-b60f-8708b488e5b8/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/change/new_message.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f1fa4e6d/371de9bb-c315-4494-b60f-8708b488e5b8/sams.admin">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/f1fa4e6d/b5c3064e-3eff-4ba9-a4d8-098953cb85bf/activity.user" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b5c3064e-3eff-4ba9-a4d8-098953cb85bf/console.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -1949,14 +1479,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/java/com/eu/persistxl/activeity/servlet/AdminStuCurriseServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/java/com/eu/persistxl/activeity/entity/UserBean.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/java/com/eu/persistxl/activeity/entity/EvaluateBean.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/IAdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/IAdminService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/IUserDao.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/IUserSerivce.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/impl/UserService.java" />
@@ -1965,9 +1488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1975,7 +1495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1998,28 +1517,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/AdminStuCourseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/AdminServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/AdminStuCourseDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/AdminServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/utils/ConnUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -2032,81 +1534,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/AdminStuCurriseServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/CurriseServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/EvaluateServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/ScoreServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/StudentServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/TeacherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/Admin_currise.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1092">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/paging.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/AdminStuCurriseServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/CurriseServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/EvaluateServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/ScoreServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/StudentServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/TeacherServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/Admin_currise.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/paging.html" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1617">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2114,7 +1556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2122,15 +1563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="25" column="80" lean-forward="false" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2138,27 +1570,95 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/UserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/index1.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2415">
-          <caret line="181" column="32" lean-forward="false" selection-start-line="181" selection-start-column="32" selection-end-line="181" selection-end-column="32" />
+        <state relative-caret-position="1743">
+          <caret line="83" column="19" lean-forward="false" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
           <folding>
             <element signature="e#2413#2429#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/datas/nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1554">
+          <caret line="74" column="6" lean-forward="false" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/js/layui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/user_info.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/images/0.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/change/images/01.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f1fa4e6d/371de9bb-c315-4494-b60f-8708b488e5b8/sams.class_currise">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1491">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="2" selection-end-line="111" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/change/user_info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="49" column="6" lean-forward="false" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
