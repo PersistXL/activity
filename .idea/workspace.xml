@@ -2,448 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48764698-e0e2-4503-8da6-1835bdadf9a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/activity_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/activity_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/UserDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/entity/UserBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/change/about.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/change/active.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/change/contact_us.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/change/new_message.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/change/release_activity.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/change/seachMessag.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/change/user_info.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/IUserDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/UserDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/IUserSerivce.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/impl/UserService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/rebel-remote.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/dao/IAdminDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/dao/IAdminStuCourseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/dao/ICurriseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/dao/IEvaluateDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/dao/IScoreDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/dao/IStudentDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/dao/ITeacherDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/dao/IUserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/dao/impl/AdminDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/dao/impl/AdminStuCourseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/dao/impl/CurriseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/dao/impl/EvaluateDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/dao/impl/ScoreDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/dao/impl/StudentDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/dao/impl/TeacherDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/dao/impl/UserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/entity/AdminBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/entity/CurriseBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/entity/EvaluateBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/entity/ScoreBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/entity/StudentBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/entity/TeacherBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/service/IAdminService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/service/IAdminStuCurriseService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/service/ICurriseService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/service/IEvaluateService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/service/IScoreService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/service/IStudentService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/service/ITeacherService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/service/IUserSerivce.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/service/impl/AdminService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/service/impl/AdminStuCurriseService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/service/impl/CurriseService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/service/impl/EvaluateService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/service/impl/ScoreService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/service/impl/StudentService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/service/impl/TeacherService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/service/impl/UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/servlet/AdminServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/servlet/AdminStuCurriseServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/servlet/CurriseServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/servlet/EvaluateServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/servlet/ScoreServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/servlet/StudentServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/servlet/TeacherServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/servlet/UserServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/utils/BaseDaoutil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/eu/sams/utils/ConnUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/Admin_StudentInfo.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/Admin_StudentScore.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/Admin_TeacherInfo.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/Admin_currise.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/Contact_us.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/Teacher_info.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/asd.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/begtable.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/css/animsition.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/css/begtable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/css/bootstrap-select.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/css/eu_manage.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/css/formValidation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/css/global.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/css/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/css/login.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/css/site.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/css/table.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/css/web-icons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/datas/area_data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/datas/laytpl_laypage_data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/datas/nav.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/datas/nav_content.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/datas/nav_member.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/images/0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/images/01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/images/ba.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/images/back.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/images/logo-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/images/ww.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/index1.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/js/bootstrap-select.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/js/button_js.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/js/city.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/js/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/js/formValidation.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/js/layout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/js/layui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/js/navbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/js/paging.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/js/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/js/validator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/paging.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/font-awesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/layui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/code.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/_all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/aero.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/aero.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/aero@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/blue@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/flat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/flat@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/green@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/grey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/grey@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/orange@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/pink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/pink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/pink@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/purple@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/red@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/flat/yellow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/futurico/futurico.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/futurico/futurico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/futurico/futurico@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/icheck.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/line/_all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/line/aero.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/line/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/line/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/line/grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/line/line.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/line/line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/line/line@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/line/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/line/pink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/line/purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/line/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/line/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/_all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/aero.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/aero.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/aero@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/blue@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/green@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/grey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/grey@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/minimal.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/minimal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/minimal@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/orange@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/pink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/pink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/pink@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/purple@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/red@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/minimal/yellow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/polaris/polaris.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/polaris/polaris.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/polaris/polaris@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/_all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/aero.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/aero.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/aero@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/blue@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/green@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/grey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/grey@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/orange@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/pink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/pink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/pink@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/purple@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/red@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/square.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/square.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/square@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/icheck/square/yellow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/laydate/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/laydate/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/layer/default/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/layer/default/layer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/css/modules/layer/default/loading-2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/font/iconfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/font/iconfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/font/iconfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/font/iconfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/10.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/11.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/12.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/13.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/14.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/15.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/16.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/17.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/18.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/19.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/20.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/21.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/22.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/23.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/24.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/25.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/26.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/27.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/28.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/29.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/3.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/30.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/31.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/32.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/33.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/34.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/35.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/36.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/37.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/38.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/39.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/4.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/40.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/41.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/42.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/43.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/44.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/45.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/46.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/47.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/48.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/49.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/5.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/50.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/51.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/52.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/53.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/54.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/55.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/56.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/57.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/58.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/59.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/6.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/60.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/61.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/62.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/63.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/64.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/65.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/66.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/67.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/68.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/69.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/7.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/70.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/71.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/8.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/images/face/9.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/lay/dest/layui.all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/lay/dest/layui.mod.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/lay/lib/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/lay/modules/code.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/lay/modules/element.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/lay/modules/flow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/lay/modules/form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/lay/modules/laydate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/lay/modules/layedit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/lay/modules/layer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/lay/modules/laypage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/lay/modules/laytpl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/lay/modules/tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/lay/modules/upload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/lay/modules/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/layui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/modules/icheck.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/plugins/layui/modules/pjax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/student_SeachMessag.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/student_evaluaate.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/student_info.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/student_score.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/teacher_SeachMessag.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/teacher_evaluaate.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/teacher_info.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/teacher_score.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/temp/edit-form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/Admin/weiwancheng.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/dao/IAdminDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/dao/IAdminStuCourseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/dao/ICurriseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/dao/IEvaluateDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/dao/IScoreDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/dao/IStudentDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/dao/ITeacherDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/dao/IUserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/dao/impl/AdminDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/dao/impl/AdminStuCourseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/dao/impl/CurriseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/dao/impl/EvaluateDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/dao/impl/ScoreDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/dao/impl/StudentDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/dao/impl/TeacherDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/dao/impl/UserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/entity/AdminBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/entity/CurriseBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/entity/EvaluateBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/entity/ScoreBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/entity/StudentBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/entity/TeacherBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/service/IAdminService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/service/IAdminStuCurriseService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/service/ICurriseService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/service/IEvaluateService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/service/IScoreService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/service/IStudentService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/service/ITeacherService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/service/IUserSerivce.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/service/impl/AdminService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/service/impl/AdminStuCurriseService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/service/impl/CurriseService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/service/impl/EvaluateService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/service/impl/ScoreService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/service/impl/StudentService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/service/impl/TeacherService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/service/impl/UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/servlet/AdminServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/servlet/AdminStuCurriseServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/servlet/CurriseServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/servlet/EvaluateServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/servlet/ScoreServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/servlet/StudentServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/servlet/TeacherServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/servlet/UserServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/utils/BaseDaoutil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/com/eu/sams/utils/ConnUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/rebel-remote.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/classes/rebel.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/lib/c3p0-0.9.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/lib/commons-collections-3.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/lib/commons-lang-2.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/lib/ezmorph-1.0.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/lib/junit-4.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/lib/mysql-connector-java-5.1.18.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/change/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/change/images/bbb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/change/images/group.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/change/images/l.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/change/images/m.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/practice/index.jsp" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/artifacts/practice_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/activity_war.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/artifacts/practice_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/activity_war_exploded.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/images/01.png" afterPath="$PROJECT_DIR$/src/main/webapp/change/images/01.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activity.iml" afterPath="$PROJECT_DIR$/activity.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/UserServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/UserServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/Contact_us.html" afterPath="$PROJECT_DIR$/src/main/webapp/Admin/Contact_us.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/asd.html" afterPath="$PROJECT_DIR$/src/main/webapp/Admin/asd.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/datas/nav.js" afterPath="$PROJECT_DIR$/src/main/webapp/Admin/datas/nav.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Admin/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/index1.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Admin/index1.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/layout.html" afterPath="$PROJECT_DIR$/src/main/webapp/Admin/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Admin/main.html" afterPath="$PROJECT_DIR$/src/main/webapp/Admin/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/activity_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/activity_war.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/activity_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/activity_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/utils/ConnUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/utils/ConnUtil.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -627,16 +188,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BaseDaoutil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/utils/BaseDaoutil.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -649,14 +200,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnUtil.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ConnUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/utils/ConnUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="-84">
+              <caret line="17" column="60" lean-forward="false" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -693,7 +242,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/eu/sams/servlet/teacherServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eu/sams/dao/ITeacher.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eu/sams/dao/ITeacherDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eu/sams/dao/impl/TeacherDao.java" />
@@ -744,6 +292,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/UserServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/utils/ConnUtil.java" />
       </list>
     </option>
   </component>
@@ -759,6 +308,13 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="27" />
@@ -1118,7 +674,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Java/sams" />
     <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -1819,12 +1375,12 @@
       <workItem from="1512006811275" duration="96000" />
       <workItem from="1512006955052" duration="143000" />
       <workItem from="1512007120694" duration="8504000" />
-      <workItem from="1512015776742" duration="1361000" />
+      <workItem from="1512015776742" duration="1750000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293377000" />
+    <option name="totallyTimeSpent" value="293766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="0" />
@@ -1844,7 +1400,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38621444" sideWeight="0.49571735" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38621444" sideWeight="0.49571735" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25382933" sideWeight="0.49785867" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1853,7 +1409,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3107221" sideWeight="0.49571735" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20663811" sideWeight="0.3894967" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25749466" sideWeight="0.5684039" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20396146" sideWeight="0.61050326" order="0" side_tool="true" content_ui="tabs" />
@@ -2137,16 +1693,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/IUserSerivce.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/impl/UserService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/UserDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/utils/ConnUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/utils/BaseDaoutil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
@@ -2204,6 +1750,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -2214,10 +1768,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/utils/ConnUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="-84">
+          <caret line="17" column="60" lean-forward="false" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
           <folding />
         </state>
       </provider>
