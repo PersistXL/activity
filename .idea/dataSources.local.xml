@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="sams@localhost" uuid="371de9bb-c315-4494-b60f-8708b488e5b8">
-      <database-info product="MySQL" version="5.7.20-0ubuntu0.17.10.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.44 ( Revision: b3cda4f864902ffdde495b9df93937c3e20009be )">
-        <extra-name-characters>#@</extra-name-characters>
-        <identifier-quote-string>`</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
-      <secret-storage>master_key</secret-storage>
-      <user-name>root</user-name>
-      <introspection-schemas>*:sams</introspection-schemas>
-    </data-source>
-    <data-source name="activity@localhost" uuid="ad7ba8ba-eb28-4da9-b117-6e80d3a8996f">
+    <data-source name="MySQL - activity@localhost" uuid="4a17c0d1-0c76-4ddd-b18d-ff73b54b4c51">
       <database-info product="MySQL" version="5.7.20-0ubuntu0.17.10.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.44 ( Revision: b3cda4f864902ffdde495b9df93937c3e20009be )">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>

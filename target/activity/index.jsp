@@ -30,7 +30,19 @@
 					<i ></i>
 					<input type="text" name="username" placeholder="请输入用户名" />
 					<div class="clear"> </div>
+					<i class="form-control-feedback" data-fv-icon-for="loginName" style="display: none;"></i>
+					<small class="help-block" data-fv-validator="notEmpty" data-fv-for="loginName"
+						   data-fv-result="NOT_VALIDATED" style="display: none;">用户名不能为空
+					</small>
 				</div>
+				<%
+					String err= (String) request.getAttribute("err");
+					if(err !=null){
+				%>
+				<span style="color: red"><%=err%></span>
+				<%
+					}
+				%>
 				<div class="login-ic">
 					<i class="icon"></i>
 					<input type="password" name="password" placeholder="请输入密码" />

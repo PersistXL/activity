@@ -10,5 +10,6 @@ import java.util.List;
  */
 public interface UserDao {
    List<UserBean> login(UserBean userBean);
+    UserBean username(int  u_id);
 }
 

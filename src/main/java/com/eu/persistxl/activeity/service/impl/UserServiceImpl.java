@@ -22,4 +22,9 @@ public class UserServiceImpl implements UserService {
             throw new RuntimeException(e);
         }
     }
+
+    @Override
+    public UserBean username(int u_id) {
+        return userDao.username(u_id);
+    }
 }

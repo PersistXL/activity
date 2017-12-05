@@ -9,4 +9,5 @@ import java.util.List;
  */
 public interface UserService {
     List<UserBean> login (UserBean userBean);
+    UserBean username(int u_id);
 }
