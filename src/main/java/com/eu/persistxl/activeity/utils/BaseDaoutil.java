@@ -12,6 +12,7 @@ import java.util.List;
 /**
  * Created by 马欢欢 on 2017/5/18.
  */
+@SuppressWarnings("ALL")
 public class BaseDaoutil {
     private Connection conn;
     private PreparedStatement pstmt;

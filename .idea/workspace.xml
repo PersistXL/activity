@@ -14,36 +14,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48764698-e0e2-4503-8da6-1835bdadf9a1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/0cc7d020-3eb2-4da6-ac16-8b6ae87cca5d/storage_v2/_src_/schema/sys.zb4BAA.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/0cc7d020-3eb2-4da6-ac16-8b6ae87cca5d/storage_v2/_src_/schema/sys.zb4BAA.zip" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/4a17c0d1-0c76-4ddd-b18d-ff73b54b4c51.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/activity.war" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/EvaluateDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/EvaluateDaoImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/entity/EvaluateBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/EvaluateService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/impl/EvaluateServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/EvaluateServlet.java" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/371de9bb-c315-4494-b60f-8708b488e5b8.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ad7ba8ba-eb28-4da9-b117-6e80d3a8996f.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4a17c0d1-0c76-4ddd-b18d-ff73b54b4c51.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/4a17c0d1-0c76-4ddd-b18d-ff73b54b4c51.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/UserDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/UserDaoImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/UserService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/impl/UserServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/UserServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/UserServlet.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/change/user_info.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/change/user_info.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/dao/UserDao.class" afterPath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/dao/UserDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/dao/impl/UserDaoImpl.class" afterPath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/dao/impl/UserDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/service/UserService.class" afterPath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/service/UserService.class" />
-      <change beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/service/impl/UserServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/utils/BaseDaoutil.java" afterPath="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/utils/BaseDaoutil.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Admin/plugins/layui/layui.js" afterPath="$PROJECT_DIR$/src/main/webapp/Admin/plugins/layui/layui.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/change/release_activity.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/change/release_activity.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/activity.war" afterPath="$PROJECT_DIR$/target/activity.war" />
+      <change beforePath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/layui.js" afterPath="$PROJECT_DIR$/target/activity/Admin/plugins/layui/layui.js" />
       <change beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/servlet/UserServlet.class" afterPath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/servlet/UserServlet.class" />
-      <change beforePath="$PROJECT_DIR$/target/activity/change/user_info.jsp" afterPath="$PROJECT_DIR$/target/activity/change/user_info.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/activity/index.jsp" afterPath="$PROJECT_DIR$/target/activity/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/dao/UserDao.class" afterPath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/dao/UserDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/dao/impl/UserDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/dao/impl/UserDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/service/UserService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/service/impl/UserServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/utils/BaseDaoutil.class" afterPath="$PROJECT_DIR$/target/activity/WEB-INF/classes/com/eu/persistxl/activeity/utils/BaseDaoutil.class" />
+      <change beforePath="$PROJECT_DIR$/target/activity/change/release_activity.jsp" afterPath="$PROJECT_DIR$/target/activity/change/release_activity.jsp" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/servlet/UserServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/servlet/UserServlet.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/utils/BaseDaoutil.class" afterPath="$PROJECT_DIR$/target/classes/com/eu/persistxl/activeity/utils/BaseDaoutil.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,7 +78,29 @@
         <item name="MySQL - activity@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="activity: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="evaluate: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - activity@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="activity: schema" type="c314c289:MysqlImplModel$Schema" />
         <item name="user: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sams@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sams@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sams@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="sams: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -97,90 +110,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/UserServlet.java">
+      <file leaf-file-name="EvaluateDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/EvaluateDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="52" />
+            <state relative-caret-position="147">
+              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_info.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/change/user_info.jsp">
+      <file leaf-file-name="EvaluateServlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/EvaluateServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1512">
-              <caret line="72" column="4" lean-forward="false" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/entity/UserBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="20" />
-              <folding>
-                <element signature="e#1301#1302#0" expanded="true" />
-                <element signature="e#1329#1330#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="76" lean-forward="false" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="28" selection-end-column="5" />
-              <folding>
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#736#737#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/UserDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="-239">
+              <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1512474268366" expanded="true" signature="1053:1086" ph="select * fro... user" />
               </folding>
             </state>
           </provider>
@@ -192,9 +138,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -202,6 +148,7 @@
     <findStrings>
       <find>\&lt;div class\=\&quot;login\-ic\&quot;\&gt;\n\	\	\	\	\	\&lt;i \&gt;\&lt;\/i\&gt;\n\	\	\	\	\	\&lt;input type\=\&quot;text\&quot; name\=\&quot;username\&quot; placeholder\=\&quot;请输入用户名\&quot; \/\&gt;\n\	\	\	\	\	\&lt;div class\=\&quot;clear\&quot;\&gt; \&lt;\/div\&gt;\n\	\	\	\	\	\&lt;i class\=\&quot;form\-control\-feedback\&quot; data\-fv\-icon\-for\=\&quot;loginName\&quot; style\=\&quot;display\: none\;\&quot;\&gt;\&lt;\/i\&gt;\n\	\	\	\	\	\&lt;small class\=\&quot;help\-block\&quot; data\-fv\-validator\=\&quot;notEmpty\&quot; data\-fv\-for\=\&quot;loginName\&quot;\n\	\	\	\	\	\	   data\-fv\-result\=\&quot;NOT_VALIDATED\&quot; style\=\&quot;display\: none\;\&quot;\&gt;用户名不能为空\n\	\	\	\	\	\&lt;\/small\&gt;|\&lt;div class\=\&quot;login\-ic\&quot;\&gt;\n\	\	\	\	\	\&lt;i \&gt;\&lt;\/i\&gt;\n\	\	\	\	\	\&lt;input type\=\&quot;text\&quot; name\=\&quot;username\&quot; placeholder\=\&quot;请输入用户名\&quot; \/\&gt;\n\	\	\	\	\	\&lt;div class\=\&quot;clear\&quot;\&gt; \&lt;\/div\&gt;\n\	\	\	\	\	\&lt;i class\=\&quot;form\-control\-feedback\&quot; data\-fv\-icon\-for\=\&quot;loginName\&quot; style\=\&quot;display\: none\;\&quot;\&gt;\&lt;\/i\&gt;\n\	\	\	\	\	\&lt;small class\=\&quot;help\-block\&quot; data\-fv\-validator\=\&quot;notEmpty\&quot; data\-fv\-for\=\&quot;loginName\&quot;\n\	\	\	\	\	\	   data\-fv\-result\=\&quot;NOT_VALIDATED\&quot; style\=\&quot;display\: none\;\&quot;\&gt;用户名不能为空\n\	\	\	\	\	\&lt;\/small\&gt;|\&lt;div class\=\&quot;login\-ic\&quot;\&gt;\n\	\	\	\	\	\&lt;i \&gt;\&lt;\/i\&gt;\n\	\	\	\	\	\&lt;input type\=\&quot;text\&quot; name\=\&quot;username\&quot; placeholder\=\&quot;请输入用户名\&quot; \/\&gt;\n\	\	\	\	\	\&lt;div class\=\&quot;clear\&quot;\&gt; \&lt;\/div\&gt;\n\	\	\	\	\	\&lt;i class\=\&quot;form\-control\-feedback\&quot; data\-fv\-icon\-for\=\&quot;loginName\&quot; style\=\&quot;display\: none\;\&quot;\&gt;\&lt;\/i\&gt;\n\	\	\	\	\	\&lt;small class\=\&quot;help\-block\&quot; data\-fv\-validator\=\&quot;notEmpty\&quot; data\-fv\-for\=\&quot;loginName\&quot;\n\	\	\	\	\	\	   data\-fv\-result\=\&quot;NOT_VALIDATED\&quot; style\=\&quot;display\: none\;\&quot;\&gt;用户名不能为空\n\	\	\	\	\	\&lt;\/small\&gt;</find>
       <find>userBean</find>
+      <find>release_activity.jsp</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -221,14 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/c3p0-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eu/sams/utils/ConnUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eu/sams/entity/EvaluateBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eu/sams/servlet/EvaluateServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eu/sams/dao/impl/EvaluateDao.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Admin/student_SeachMessag.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eu/sams/servlet/AdminServlet.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
@@ -236,7 +175,6 @@
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/Admin/layout.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/Admin/main.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/change/release_activity.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/change/User_Info.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/change/new_message.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/change/seachMessag.jsp" />
@@ -254,24 +192,33 @@
         <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/AdminServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/AdminStuCurriseServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/CurriseServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/EvaluateServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/ScoreServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/StudentServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/TeacherServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/Admin/Admin_currise.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Admin/index1.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/Admin/user_info.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/test.html" />
         <option value="$PROJECT_DIR$/src/main/java/test.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Admin/datas/nav.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/Admin/teacher_evaluaate.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/UserServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/UserDaoImpl.java" />
+        <option value="src:table:/f1fa4e6d/4a17c0d1-0c76-4ddd-b18d-ff73b54b4c51/activity.user" />
         <option value="$PROJECT_DIR$/src/main/webapp/change/user_info.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Admin/datas/nav.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/entity/MessageBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/entity/EvaluateBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/UserServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Admin/index1.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Admin/plugins/layui/layui.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/change/release_activity.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/EvaluateService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/impl/EvaluateServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/EvaluateDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/EvaluateDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/EvaluateServlet.java" />
       </list>
     </option>
   </component>
@@ -306,10 +253,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="189" />
     <option name="y" value="27" />
-    <option name="width" value="1920" />
-    <option name="height" value="1053" />
+    <option name="width" value="1717" />
+    <option name="height" value="948" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -345,8 +293,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -406,6 +352,34 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="activeity" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="activeity" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="activeity" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="activeity" type="462c0819:PsiDirectoryNode" />
               <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -422,6 +396,13 @@
               <item name="activity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -432,12 +413,22 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="Admin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="activity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="change" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -445,7 +436,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -455,11 +446,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/Admin" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/change/images" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl" />
-      <recent name="$PROJECT_DIR$/.." />
-      <recent name="$PROJECT_DIR$/src/main/webapp/change" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/impl" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/entity" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -528,7 +519,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/test.html" />
+    <configuration name="test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:8080/test.html" />
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -563,9 +554,8 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.42" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="activity:war exploded">
           <settings>
@@ -574,7 +564,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_activity_4" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_activity" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -765,8 +755,8 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="activity:war exploded" />
           <artifact name="activity:war" />
+          <artifact name="activity:war exploded" />
         </option>
       </method>
     </configuration>
@@ -1080,14 +1070,9 @@
       <envs />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -1154,53 +1139,98 @@
       <workItem from="1512368741855" duration="5985000" />
       <workItem from="1512440860257" duration="1156000" />
       <workItem from="1512463536825" duration="9588000" />
-      <workItem from="1512475511840" duration="3547000" />
+      <workItem from="1512475511840" duration="5252000" />
+      <workItem from="1512541279439" duration="3427000" />
+      <workItem from="1512632178126" duration="165000" />
+      <workItem from="1512632706948" duration="15064000" />
+      <workItem from="1512650434490" duration="2344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="329883000" />
+    <option name="totallyTimeSpent" value="352588000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="0" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5122863" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.49785867" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.51338327" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5122863" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.49785867" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.51338327" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3306624" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3304253" sideWeight="0.48771366" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3304253" sideWeight="0.48771366" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2820513" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38495094" sideWeight="0.49571735" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25299892" sideWeight="0.49785867" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3155604" sideWeight="0.49571735" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25408942" sideWeight="0.49785867" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30970556" sideWeight="0.49361023" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32824427" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22222222" sideWeight="0.3807267" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20663811" sideWeight="0.5989305" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34133044" sideWeight="0.49361023" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32752994" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2275641" sideWeight="0.38297874" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22489317" sideWeight="0.61702126" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22222222" sideWeight="0.6192733" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33841133" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25749466" sideWeight="0.5684039" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33913043" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5122863" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.49785867" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.51338327" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3306624" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3304253" sideWeight="0.48771366" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2820513" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3155604" sideWeight="0.49571735" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25408942" sideWeight="0.49785867" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34133044" sideWeight="0.49361023" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32752994" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2275641" sideWeight="0.38297874" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22489317" sideWeight="0.61702126" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22222222" sideWeight="0.6192733" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33913043" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25749466" sideWeight="0.5684039" order="8" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1210,7 +1240,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1219,74 +1249,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/java/com/eu/persistxl/activeity/servlet/StudentServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/java/com/eu/persistxl/activeity/servlet/AdminStuCurriseServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/java/com/eu/persistxl/activeity/entity/UserBean.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/java/com/eu/persistxl/activeity/entity/EvaluateBean.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/IAdminService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/IUserDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/IUserSerivce.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/impl/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/UserDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/AdminStuCourseDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/AdminServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/AdminStuCurriseServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/CurriseServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/EvaluateServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/ScoreServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/StudentServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/TeacherServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/Admin_currise.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/paging.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1617">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/css/formValidation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/css/eu_manage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/index1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1743">
-          <caret line="83" column="19" lean-forward="false" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/js/layui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/user_info.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/images/0.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/change/images/01.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/f1fa4e6d/371de9bb-c315-4494-b60f-8708b488e5b8/sams.class_currise" />
     <entry file="file://$PROJECT_DIR$/src/main/java/test.html" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2375f835-fcce-49a0-9b6c-f6d3e16a14be/console.sql">
@@ -1322,23 +1284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="85" lean-forward="false" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/datas/nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1848">
-          <caret line="88" column="47" lean-forward="false" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1346,30 +1291,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/utils/BaseDaoutil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="das://table:/f1fa4e6d/0cc7d020-3eb2-4da6-ac16-8b6ae87cca5d/activity.user" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/index.jsp">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4a17c0d1-0c76-4ddd-b18d-ff73b54b4c51/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="76" lean-forward="false" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="76" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4a17c0d1-0c76-4ddd-b18d-ff73b54b4c51/console.sql">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4a17c0d1-0c76-4ddd-b18d-ff73b54b4c51/console_1.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1378,8 +1311,8 @@
     </entry>
     <entry file="das://src:table:/f1fa4e6d/4a17c0d1-0c76-4ddd-b18d-ff73b54b4c51/activity.user">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state relative-caret-position="273">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1390,30 +1323,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/entity/UserBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1329#1330#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/UserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="52" />
-          <folding />
+        <state relative-caret-position="210">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1421,37 +1334,299 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="28" column="5" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="33" />
+        <state relative-caret-position="189">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="32" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1512474268366" expanded="true" signature="1053:1086" ph="select * fro... user" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/change/user_info.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="72" column="4" lean-forward="false" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+        <state relative-caret-position="2184">
+          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/datas/nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="70" column="18" lean-forward="false" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/change/active.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/change/about.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/plugins/layui/css/layui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="1" column="8480" lean-forward="false" selection-start-line="1" selection-start-column="8480" selection-end-line="1" selection-end-column="8480" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/entity/UserBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="e#1301#1302#0" expanded="false" />
+            <element signature="e#1329#1330#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1512474268366" expanded="true" signature="1053:1086" ph="select * fro... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-245">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3633">
+          <caret line="173" column="23" lean-forward="true" selection-start-line="173" selection-start-column="23" selection-end-line="173" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/index1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="25" column="59" lean-forward="true" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+          <folding>
+            <element signature="e#5977#6023#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="76" column="52" lean-forward="false" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/f1fa4e6d/4a17c0d1-0c76-4ddd-b18d-ff73b54b4c51/activity.evaluate">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/acf09896-29a4-428d-bd1d-db88f0048a40/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Admin/plugins/layui/layui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/f1fa4e6d/acf09896-29a4-428d-bd1d-db88f0048a40/sams.evaluate" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/change/new_message.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Java/jdk1.8.0_121/src.zip!/com/sun/jmx/interceptor/DefaultMBeanServerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15393">
+          <caret line="818" column="0" lean-forward="false" selection-start-line="818" selection-start-column="0" selection-end-line="818" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Java/jdk1.8.0_121/src.zip!/com/sun/jmx/mbeanserver/JmxMBeanServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15435">
+          <caret line="800" column="0" lean-forward="false" selection-start-line="800" selection-start-column="0" selection-end-line="800" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Java/jdk1.8.0_121/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14427">
+          <caret line="744" column="0" lean-forward="false" selection-start-line="744" selection-start-column="0" selection-end-line="744" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Java/jdk1.8.0_121/src.zip!/javax/management/remote/rmi/RMIConnectionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="828" column="0" lean-forward="false" selection-start-line="828" selection-start-column="0" selection-end-line="828" selection-end-column="0" />
+          <folding>
+            <element signature="e#4784#4785#0" expanded="false" />
+            <element signature="e#4869#4870#0" expanded="false" />
+            <element signature="e#11901#11930#0" expanded="false" />
+            <element signature="e#14367#14396#0" expanded="false" />
+            <element signature="e#19221#19250#0" expanded="false" />
+            <element signature="e#20479#20508#0" expanded="false" />
+            <element signature="e#25855#25884#0" expanded="false" />
+            <element signature="e#27924#27953#0" expanded="false" />
+            <element signature="e#29686#29715#0" expanded="false" />
+            <element signature="e#35722#35751#0" expanded="false" />
+            <element signature="e#39217#39246#0" expanded="false" />
+            <element signature="e#44810#44839#0" expanded="false" />
+            <element signature="e#48950#48951#0" expanded="false" />
+            <element signature="e#49048#49049#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2b7a4d69-0efc-40a8-8ad9-08cecf358a26/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/utils/BaseDaoutil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-583">
+          <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/change/release_activity.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="158" column="7" lean-forward="false" selection-start-line="158" selection-start-column="7" selection-end-line="158" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/impl/EvaluateServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sams.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1390">
+          <caret line="95" column="13" lean-forward="false" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/f1fa4e6d/2b7a4d69-0efc-40a8-8ad9-08cecf358a26/sams.evaluate">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/entity/EvaluateBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="59" column="1" lean-forward="false" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/EvaluateDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/service/EvaluateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/dao/impl/EvaluateDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eu/persistxl/activeity/servlet/EvaluateServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-239">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1461,7 +1636,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>activity:war</last-edited>
+          <last-edited>activity:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1509,12 +1684,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>activity</last-edited>
+          <last-edited>Web|activity</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

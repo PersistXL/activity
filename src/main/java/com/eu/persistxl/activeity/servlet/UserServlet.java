@@ -40,18 +40,6 @@ public class UserServlet extends HttpServlet {
         }else if (method.equals("username")) {
             username(req, resp);
         }
- /*       if(method.equals("slogin")){
-            slogin(req,resp);
-        }else
-        if (method.equals("tlogin")){
-            tlogin(req,resp);
-        }else
-        if (method.equals("alogin")){
-            alogin(req,resp);
-        }else
-        if (method.equals("logout")){
-            logout(req,resp);
-        }*/
     }
 
     protected void login(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -61,7 +49,6 @@ public class UserServlet extends HttpServlet {
         List<UserBean> list = userService.login(userBean);
         if (list != null) {
             req.getSession().setAttribute("info", list);
-//            req.getSession().setAttribute("identity","user");
             resp.sendRedirect(req.getContextPath() + "/Admin/index1.jsp");
         } else {
             req.setAttribute("err", "用户名或密码有误，请重新登录");
@@ -69,20 +56,6 @@ public class UserServlet extends HttpServlet {
         }
     }
     /*
-    protected void tlogin(HttpServletRequest req,HttpServletResponse resp)throws ServletException,IOException{
-        TeacherBean teacherBean=new TeacherBean();
-        teacherBean.setT_username(req.getParameter("username"));
-        teacherBean.setT_password(req.getParameter("password"));
-        List<TeacherBean> tlist=userSerivce.Tlogin(teacherBean);
-        if (tlist!=null){
-            req.getSession().setAttribute("info",tlist);
-            req.getSession().setAttribute("identity","teacher");
-            resp.sendRedirect(req.getContextPath()+"/Admin/index1.jsp");
-        }else {
-            req.setAttribute("err","用户名或密码错误，请重新登录");
-            req.getRequestDispatcher("/index.jsp").forward(req,resp);
-        }
-    }
     protected void alogin(HttpServletRequest request,HttpServletResponse response) throws ServletException,IOException{
         System.out.println("mahuan");
         AdminBean adminBean=new AdminBean();
@@ -102,7 +75,6 @@ public class UserServlet extends HttpServlet {
         request.getSession().removeAttribute("info");
         request.getSession().removeAttribute("err");
         request.getSession().removeAttribute("identity");
-
     }
 
     protected void username(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -115,8 +87,5 @@ public class UserServlet extends HttpServlet {
         System.out.println(userBean1);
         JSONArray jsonArray = JSONArray.fromObject(userBean1);
         response.getWriter().print(jsonArray);
-
-
-
     }
 }
