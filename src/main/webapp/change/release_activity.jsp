@@ -49,7 +49,7 @@
 
     <div class="site-demo-button" style="margin-top: 20px;margin-left: 50px;margin-bottom: 20px;">
         <button class="layui-btn site-demo-layedit" data-type="content">提交留言</button>
-        <input type="hidden" name="name" value="<%--<%=userBean.getU_username()%>--%>">
+        <%--<input type="hidden" name="name" value="<%=userBean1.getU_username()%>">--%>
         <%--<button class="layui-btn site-demo-layedit" data-type="text">获取编辑器纯文本内容</button>
         <button class="layui-btn site-demo-layedit" data-type="selection">获取编辑器选中内容</button>--%>
     </div>
@@ -60,25 +60,10 @@
     </div>
     <p></p>
 </fieldset>
-<%--<script type="text/javascript">
-    //    <option value='计算机原理' >计算机原理</option>
-    $(function () {
-        $.post("${pageContext.request.contextPath}/AdminStuCurriseServlet?method=Student_findTeacher",
-            function (data,status) {
-                $("#select_Teacher").html("");
-                for(var i=0;i<data.length;i++){
 
-
-                    $("#select_Teacher").append("<option value='"+data[i]['t_teacherid']+"'>"+data[i]['t_username']+"</option>");
-                }
-            },"json"
-        );
-    });
-
-</script>--%>
 
 <script type="text/javascript">
-    $(document).ready(function () {
+ /*   $(document).ready(function () {
 
         $.post("${pageContext.request.contextPath}/EvaluateServlet?method=find_Message",
             function (data, status) {
@@ -89,7 +74,7 @@
             },
             "json"
         );
-    });
+    });*/
 
     layui.use('layedit', function () {
         var layedit = layui.layedit
@@ -109,22 +94,23 @@
                     + time.getMinutes() + ":" + time.getSeconds();
 
                 //留言板内容写入数据库
-                var e_sudent_t = layedit.getContent(index);
-                var teacherID = $("select[name='teacher']").val();
+                var e_theme = layedit.getContent(index);
+                // var e_userid = $("select[name='teacher']").val();
                 $(function () {
 
 //                   alert(layedit.getContent(index)); //获取编辑器内容
 //                    alert($("input[name='name']").val());
-                    var e_studentname =$("input[name='name']").val();
-                    $.post("${pageContext.request.contextPath}/EvaluateServlet?method=Message",
+//                     var e_studentname =$("input[name='name']").val();
+
+                    $.post("/EvaluateServlet?method=Message",
                         {
-                            e_teacherid: teacherID,
-                            e_sudent_t: e_sudent_t,
-                            e_time:t,
-                            e_studentname:e_studentname
+                            // e_userid: e_userid,
+                            e_theme: e_theme,
+                            e_date:t,
+                            // e_studentname:e_studentname
                         },
                         function (data, status) {
-                            layer.msg('留言成功', {icon: 1,time: 1000}, function () {
+                            layer.msg('发布活动成功', {icon: 1,time: 1000}, function () {
                                 location.reload();
                             });
                         }
@@ -147,11 +133,11 @@
             active[type] ? active[type].call(this) : '';
         });
 
-        //自定义工具栏
+    /*    //自定义工具栏
         layedit.build('LAY_demo2', {
             tool: ['face', 'link', 'unlink', '|', 'left', 'center', 'right']
             , height: 100
-        })
+        })*/
     });
 </script>
 
