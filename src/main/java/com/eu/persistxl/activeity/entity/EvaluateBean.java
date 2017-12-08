@@ -1,5 +1,8 @@
 package com.eu.persistxl.activeity.entity;
 
+/**
+ * @author point
+ */
 public class EvaluateBean {
     private int e_userid;
     private String e_motif;

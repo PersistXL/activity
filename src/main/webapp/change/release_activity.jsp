@@ -29,7 +29,7 @@
 %>--%>
 <body>
 <div style="margin-top: 45px;">
-<input type="text" style="font-size: 22px;font-weight: bolder; " />
+<input type="text" style="font-size: 22px;font-weight: bolder; " name="e_motif1" />
 </div>
 <fieldset class="layui-elem-field layui-field-title" style="margin-top: 50px;">
     <legend>书写活动内容</legend>
@@ -41,17 +41,12 @@
 <div class="layui-form-item">
     <div class="layui-input-inline" style="margin-left: 50px;">
 
-        <%--<select id="select_Teacher" name="teacher" lay-filter="aihao" style="width: 100px;height: 40px">--%>
-
         </select>
     </div>
 
 
     <div class="site-demo-button" style="margin-top: 20px;margin-left: 50px;margin-bottom: 20px;">
         <button class="layui-btn site-demo-layedit" data-type="content">提交留言</button>
-        <%--<input type="hidden" name="name" value="<%=userBean1.getU_username()%>">--%>
-        <%--<button class="layui-btn site-demo-layedit" data-type="text">获取编辑器纯文本内容</button>
-        <button class="layui-btn site-demo-layedit" data-type="selection">获取编辑器选中内容</button>--%>
     </div>
 </div>
 <fieldset class="layui-elem-field site-demo-button">
@@ -65,7 +60,7 @@
 <script type="text/javascript">
  /*   $(document).ready(function () {
 
-        $.post("${pageContext.request.contextPath}/EvaluateServlet?method=find_Message",
+        $.post("/EvaluateServlet?method=find_Message",
             function (data, status) {
                 $("#aaa").html("");
                 for(var i =0;i<data.length;i++) {
@@ -95,19 +90,15 @@
 
                 //留言板内容写入数据库
                 var e_theme = layedit.getContent(index);
-                // var e_userid = $("select[name='teacher']").val();
+                var e_motif1 = $("input[name='e_motif1']").val();
+                // var e_userid = $("").val();
                 $(function () {
-
-//                   alert(layedit.getContent(index)); //获取编辑器内容
-//                    alert($("input[name='name']").val());
-//                     var e_studentname =$("input[name='name']").val();
-
-                    $.post("/EvaluateServlet?method=Message",
+                    $.post("${pageContext.request.contextPath}/EvaluateServlet?method=Message",
                         {
                             // e_userid: e_userid,
+                            e_motif: e_motif1,
                             e_theme: e_theme,
                             e_date:t,
-                            // e_studentname:e_studentname
                         },
                         function (data, status) {
                             layer.msg('发布活动成功', {icon: 1,time: 1000}, function () {
