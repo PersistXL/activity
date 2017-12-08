@@ -1,6 +1,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="com.eu.persistxl.activeity.entity.UserBean" %>
 <%@ page import="java.util.List" %>
+<%@ page isELIgnored="false" %>
+
 <%--
   Created by IntelliJ IDEA.
   User: point
@@ -20,12 +22,13 @@
     <link rel="stylesheet" href="../Admin/plugins/layui/css/layui.css" media="all">
     <script type="text/javascript" src="../Admin/js/jquery.min.js"></script>
     <script src="../Admin/js/layui.js" charset="utf-8"></script>
+
 </head>
 
 <%--//使用ajax输出从后台获取的信息--%>
 <script type="text/javascript">
     $(document).ready(function () {
-        $.post("/UserServlet?method=username",
+        $.post("${pageContext.request.contextPath}/UserServlet?method=username",
             function (data) {
                 console.log(data[0].u_userid)
                 //获取input框id,通过id输出内容
