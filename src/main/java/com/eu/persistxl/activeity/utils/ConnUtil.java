@@ -1,27 +1,29 @@
 package com.eu.persistxl.activeity.utils;
 
-import com.mchange.v2.c3p0.ComboPooledDataSource;
-import org.junit.Test;
-
 import java.sql.*;
 
 /**
- * Created by 马欢欢 on 2017/6/5.
+ *
+ * @author 马欢欢
+ * @date 2017/6/5
  */
 public class ConnUtil{
 
     public static Connection getConnextion() {
         Connection conn=null;
         try {
-            Class.forName("com.mysql.jdbc.Driver");//1.加载数据库驱动
-
-            String url="jdbc:mysql://localhost:3306/activity?useUnicode=true&characterEncoding=utf-8";//2.指定连接数据库的地址名称
+            //1.加载数据库驱动
+            Class.forName("com.mysql.jdbc.Driver");
+            //2.指定连接数据库的地址名称
+            String url="jdbc:mysql://localhost:3306/activity?useUnicode=true&characterEncoding=utf-8";
+            //指定用户名和密码
             String user="root";
-            String passWord = "root";//指定用户名和密码
+            String passWord = "root";
+            //3获取数据库连接
+            conn= (Connection) DriverManager.getConnection(url,user,passWord);
 
-            conn= (Connection) DriverManager.getConnection(url,user,passWord);//3获取数据库连接
-
-            if(null!=conn){//判断是否连接成功！
+            if(null!=conn){
+                //判断是否连接成功！
                 System.out.println("恭喜！数据库连接成功！");
             }
         } catch (Exception e) {

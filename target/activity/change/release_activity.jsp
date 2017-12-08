@@ -28,9 +28,14 @@
     UserBean userBean = (UserBean) list.get(0);
 %>--%>
 <body>
-<div style="margin-top: 45px;">
-<input type="text" style="font-size: 22px;font-weight: bolder; " name="e_motif1" />
-</div>
+<fieldset class="layui-elem-field site-demo-button">
+    <legend>活动主题</legend>
+    <div id="aaa1">
+    </div>
+    <input type="text" style="font-size: 22px;font-weight: bolder; width: 100%; height: 70px;" name="e_motif1" />
+    
+</fieldset>
+
 <fieldset class="layui-elem-field layui-field-title" style="margin-top: 50px;">
     <legend>书写活动内容</legend>
 </fieldset>
@@ -46,7 +51,7 @@
 
 
     <div class="site-demo-button" style="margin-top: 20px;margin-left: 50px;margin-bottom: 20px;">
-        <button class="layui-btn site-demo-layedit" data-type="content">提交留言</button>
+        <button class="layui-btn site-demo-layedit" data-type="content">提交信息</button>
     </div>
 </div>
 <fieldset class="layui-elem-field site-demo-button">
@@ -58,18 +63,7 @@
 
 
 <script type="text/javascript">
- /*   $(document).ready(function () {
 
-        $.post("/EvaluateServlet?method=find_Message",
-            function (data, status) {
-                $("#aaa").html("");
-                for(var i =0;i<data.length;i++) {
-                    $("#aaa").append("<div class='layui-elem-quote'>学号：" + data[i]['e_studentid'] + "<br><b><%--<%=studentBean.getS_username()%>:--%> </b>" + data[i]['e_sudent_t'] + " <div>" + data[i]['e_time'] + " </div></div>");
-                }
-            },
-            "json"
-        );
-    });*/
 
     layui.use('layedit', function () {
         var layedit = layui.layedit
@@ -91,16 +85,14 @@
                 //留言板内容写入数据库
                 var e_theme = layedit.getContent(index);
                 var e_motif1 = $("input[name='e_motif1']").val();
-                // var e_userid = $("").val();
                 $(function () {
                     $.post("${pageContext.request.contextPath}/EvaluateServlet?method=Message",
                         {
-                            // e_userid: e_userid,
                             e_motif: e_motif1,
                             e_theme: e_theme,
-                            e_date:t,
+                            e_date: t,
                         },
-                        function (data, status) {
+                        function (data) {
                             layer.msg('发布活动成功', {icon: 1,time: 1000}, function () {
                                 location.reload();
                             });
@@ -124,11 +116,11 @@
             active[type] ? active[type].call(this) : '';
         });
 
-    /*    //自定义工具栏
-        layedit.build('LAY_demo2', {
-            tool: ['face', 'link', 'unlink', '|', 'left', 'center', 'right']
-            , height: 100
-        })*/
+        /*    //自定义工具栏
+            layedit.build('LAY_demo2', {
+                tool: ['face', 'link', 'unlink', '|', 'left', 'center', 'right']
+                , height: 100
+            })*/
     });
 </script>
 

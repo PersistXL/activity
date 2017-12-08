@@ -40,7 +40,7 @@ public class EvaluateServlet extends HttpServlet {
     private void find_Message(HttpServletRequest req, HttpServletResponse resp) {
     }
 
-    private void Message(HttpServletRequest req, HttpServletResponse resp) {
+    private void Message(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         EvaluateBean evaluateBean = new EvaluateBean();
         evaluateBean.setE_motif(req.getParameter("e_motif"));
         evaluateBean.setE_theme(req.getParameter("e_theme"));
@@ -48,7 +48,6 @@ public class EvaluateServlet extends HttpServlet {
         List<UserBean> list= (List) req.getSession().getAttribute("info");
         int u_id = list.get(0).getU_id();
         evaluateBean.setE_userid(u_id);
-//        System.out.println(list.get(0).getU_id());
         evaluateService.Message(evaluateBean);
     }
 }

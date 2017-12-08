@@ -42,7 +42,7 @@ public class BaseDaoutil {
         } catch (Exception e) {
             throw new RuntimeException(e);
         } finally {
-            ConnUtil.close(rs, pstmt, conn);
+            ConnUtil.close( pstmt, conn);
 
         }
     }
