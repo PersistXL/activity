@@ -34,7 +34,14 @@ public class EvaluateServlet extends HttpServlet {
             Message(req, resp);
         }else  if(method.equals("find_Message")){
             find_Message(req,resp);
+        }else if(method.equals("query")){
+            query(req,resp);
         }
+    }
+
+    private void query(HttpServletRequest req, HttpServletResponse resp) {
+        List<EvaluateBean> list  = evaluateService.query();
+        req.getSession().setAttribute("message" ,list);
     }
 
     private void find_Message(HttpServletRequest req, HttpServletResponse resp) {

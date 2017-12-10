@@ -5,6 +5,8 @@ import com.eu.persistxl.activeity.dao.impl.EvaluateDaoImpl;
 import com.eu.persistxl.activeity.entity.EvaluateBean;
 import com.eu.persistxl.activeity.service.EvaluateService;
 
+import java.util.List;
+
 /**
  * @author point
  */
@@ -19,5 +21,10 @@ public class EvaluateServiceImpl implements EvaluateService {
             throw new RuntimeException(e);
 
         }
+    }
+
+    @Override
+    public List<EvaluateBean> query() {
+        return evaluateDao.query();
     }
 }
