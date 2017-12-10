@@ -950,48 +950,53 @@
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="238" parent="230" name="PRIMARY">
+    <column id="238" parent="230" name="e_username">
+      <Position>7</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="239" parent="230" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>e_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="239" parent="231" name="u_id">
+    <column id="240" parent="231" name="u_id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="240" parent="231" name="u_userid">
+    <column id="241" parent="231" name="u_userid">
       <Position>2</Position>
       <DataType>varchar(18)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="241" parent="231" name="u_username">
+    <column id="242" parent="231" name="u_username">
       <Position>3</Position>
       <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="242" parent="231" name="u_password">
+    <column id="243" parent="231" name="u_password">
       <Position>4</Position>
       <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="243" parent="231" name="u_sex">
+    <column id="244" parent="231" name="u_sex">
       <Position>5</Position>
       <DataType>varchar(2)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="244" parent="231" name="u_img">
+    <column id="245" parent="231" name="u_img">
       <Position>6</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="245" parent="231" name="PRIMARY">
+    <key id="246" parent="231" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>u_id</ColNames>
       <Primary>1</Primary>

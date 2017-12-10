@@ -4,6 +4,7 @@ import com.eu.persistxl.activeity.entity.EvaluateBean;
 import com.eu.persistxl.activeity.entity.UserBean;
 import com.eu.persistxl.activeity.service.EvaluateService;
 import com.eu.persistxl.activeity.service.impl.EvaluateServiceImpl;
+import net.sf.json.JSONArray;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -39,9 +40,13 @@ public class EvaluateServlet extends HttpServlet {
         }
     }
 
-    private void query(HttpServletRequest req, HttpServletResponse resp) {
+    private void query(HttpServletRequest req, HttpServletResponse resp) throws ServletException,IOException{
+
         List<EvaluateBean> list  = evaluateService.query();
         req.getSession().setAttribute("message" ,list);
+        JSONArray jsonArray = JSONArray.fromObject(list);
+        resp.getWriter().print(jsonArray);
+
     }
 
     private void find_Message(HttpServletRequest req, HttpServletResponse resp) {
@@ -54,6 +59,8 @@ public class EvaluateServlet extends HttpServlet {
         evaluateBean.setE_date(req.getParameter("e_date"));
         List<UserBean> list= (List) req.getSession().getAttribute("info");
         int u_id = list.get(0).getU_id();
+        String u_username = list.get(0).getU_username();
+        evaluateBean.setE_username(u_username);
         evaluateBean.setE_userid(u_id);
         evaluateService.Message(evaluateBean);
     }

@@ -9,6 +9,7 @@ public class EvaluateBean {
     private String e_theme;
     private String e_date;
     private String e_img;
+    private String e_username;
 
     @Override
     public String toString() {
@@ -18,9 +19,17 @@ public class EvaluateBean {
                 ", e_theme='" + e_theme + '\'' +
                 ", e_date='" + e_date + '\'' +
                 ", e_img='" + e_img + '\'' +
+                ", e_username='" + e_username + '\'' +
                 '}';
     }
 
+    public String getE_username() {
+        return e_username;
+    }
+
+    public void setE_username(String e_username) {
+        this.e_username = e_username;
+    }
     public int getE_userid() {
         return e_userid;
     }
