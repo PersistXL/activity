@@ -34,12 +34,12 @@
                 console.log(data)
                 // var _html = "";
                 $("#message").html("");
-                for(var i = data.length-1;i>0;i--){
+                for(var i = data.length-1;i>=0;i--){
                     $("#message").append("<blockquote class='layui-elem-quote'>" +
-                        "<span> 活动主办人姓名:&nbsp;&nbsp;&nbsp;&nbsp;"+data[i]['e_username']+"</span><br />" +
-                        "<span>活动发布的时间:&nbsp;&nbsp;&nbsp;&nbsp;"+data[i]['e_date']+"</span><br />" +
-                        "<span>活动主题:&nbsp;&nbsp;&nbsp;&nbsp;"+data[i]['e_motif']+"</span><br />" +
-                        "<span>活动内容:&nbsp;&nbsp;&nbsp;&nbsp;"+data[i]['e_theme']+"</span><br />" +
+                        "<span> <b>活动主办人姓名:</b>&nbsp;&nbsp;&nbsp;&nbsp;"+data[i]['e_username']+"</span><br />" +
+                        "<span><b>活动发布的时间:</b>&nbsp;&nbsp;&nbsp;&nbsp;"+data[i]['e_date']+"</span><br />" +
+                        "<span><b>活动主题:</b>&nbsp;&nbsp;&nbsp;&nbsp;"+data[i]['e_motif']+"</span><br />" +
+                        "<span><b>活动内容:</b>&nbsp;&nbsp;&nbsp;&nbsp;<br/>&nbsp;&nbsp;&nbsp;&nbsp;"+data[i]['e_theme']+"</span><br />" +
                         "</blockquote>")
                 }
             },"json"
@@ -54,10 +54,8 @@
 %>--%>
 
     <div id="message">
-11111
+
     </div>
-    主题:<input  readonly="readonly" type="text" name="e_motif" lay-verify="required"
-            autocomplete="off" class="layui-input">
 
 </body>
 </html>

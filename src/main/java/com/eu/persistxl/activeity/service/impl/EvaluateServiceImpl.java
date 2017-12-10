@@ -24,6 +24,15 @@ public class EvaluateServiceImpl implements EvaluateService {
     }
 
     @Override
+    public List<EvaluateBean> find_Message(int u_id) {
+      try {
+          return evaluateDao.find_Message(u_id);
+      }catch (Exception e){
+          throw new RuntimeException(e);
+      }
+    }
+
+    @Override
     public List<EvaluateBean> query() {
         return evaluateDao.query();
     }

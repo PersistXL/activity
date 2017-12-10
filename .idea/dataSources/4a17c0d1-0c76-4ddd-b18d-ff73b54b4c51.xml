@@ -937,7 +937,7 @@
     </column>
     <column id="235" parent="230" name="e_theme">
       <Position>4</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(5000)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="236" parent="230" name="e_date">

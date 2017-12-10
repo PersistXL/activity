@@ -49,7 +49,13 @@ public class EvaluateServlet extends HttpServlet {
 
     }
 
-    private void find_Message(HttpServletRequest req, HttpServletResponse resp) {
+    private void find_Message(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+        List<UserBean> list1= (List) req.getSession().getAttribute("info");
+        int u_id = list1.get(0).getU_id();
+        List<EvaluateBean> list = evaluateService.find_Message(u_id);
+        JSONArray jsonArray = JSONArray.fromObject(list);
+        resp.getWriter().print(jsonArray);
+
     }
 
     private void Message(HttpServletRequest req, HttpServletResponse resp) throws IOException {

@@ -10,5 +10,7 @@ import java.util.List;
 public interface EvaluateService {
     void Message(EvaluateBean evaluateBeane);
 
+    List<EvaluateBean> find_Message(int u_id);
+
     List<EvaluateBean> query();
 }

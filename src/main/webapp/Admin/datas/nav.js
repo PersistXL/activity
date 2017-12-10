@@ -80,11 +80,11 @@ var navs1 = [{
         }]
 },
     {
-        "title": "给出活动评价",
+        "title": "与我相关",
         "icon": "fa fa-bank",
         "spread": false,
         "children": [{
-            "title": "活动评价",
+            "title": "我发布过的活动",
             "icon": "fa-check-square-o",
             "href": "../change/new_message.jsp"
 		},

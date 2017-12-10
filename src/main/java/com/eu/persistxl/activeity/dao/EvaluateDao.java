@@ -9,6 +9,6 @@ import java.util.List;
  */
 public interface EvaluateDao {
     void Message(EvaluateBean evaluateBean);
-
+    List<EvaluateBean> find_Message(int u_id);
     List<EvaluateBean> query();
 }

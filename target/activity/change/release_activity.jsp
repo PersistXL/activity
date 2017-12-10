@@ -54,13 +54,6 @@
         <button class="layui-btn site-demo-layedit" data-type="content">提交信息</button>
     </div>
 </div>
-<fieldset class="layui-elem-field site-demo-button">
-    <legend>我发布过的活动</legend>
-    <div id="aaa">
-    </div>
-    <p></p>
-</fieldset>
-
 
 <script type="text/javascript">
 

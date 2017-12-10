@@ -20,6 +20,14 @@ public class EvaluateDaoImpl extends BaseDaoutil implements EvaluateDao {
     }
 
     @Override
+    public List<EvaluateBean> find_Message(int u_id) {
+        String sql = " select * from evaluate where e_userid = ?;";
+        Object [] num={u_id};
+        List<EvaluateBean> list = super.query(sql, num, EvaluateBean.class);
+        return list != null && list.size() > 0 ? list : null;
+    }
+
+    @Override
     public List<EvaluateBean> query() {
         String sql = " SELECT * FROM evaluate ; ";
         List<EvaluateBean> list = super.query(sql, null, EvaluateBean.class);
