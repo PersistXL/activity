@@ -1,6 +1,6 @@
 
 // 管理员
-var navs3 = [{
+var navs2 = [{
 	"title": "学生信息管理",
 	"icon": "fa fa-mortar-board ",
 	"spread": false,

@@ -11,6 +11,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.swing.*;
 import java.io.IOException;
 import java.util.List;
 
@@ -39,6 +40,8 @@ public class UserServlet extends HttpServlet {
             logout(req, resp);
         }else if (method.equals("username")) {
             username(req, resp);
+        }else if (method.equals("updatepsw")){
+            updatepsw(req,resp);
         }
     }
 
@@ -87,5 +90,19 @@ public class UserServlet extends HttpServlet {
         System.out.println(userBean1);
         JSONArray jsonArray = JSONArray.fromObject(userBean1);
         response.getWriter().print(jsonArray);
+    }
+    protected void updatepsw (HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        UserBean userBean = new UserBean();
+        userBean.setU_password(request.getParameter("pass"));
+        List<UserBean> list = (List<UserBean>) request.getSession().getAttribute("info");
+        int id = list.get(0).getU_id();
+        userBean.setU_id(id);
+
+        try {
+            userService.updatepsw(userBean);
+            JOptionPane.showMessageDialog(null,"恭喜您:密码修改成功!下次登录生效!");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

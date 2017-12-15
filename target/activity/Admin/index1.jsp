@@ -11,7 +11,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>工作室活动记录管理系统</title>
+    <title>工作室管理系统</title>
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -69,7 +69,7 @@
         <div class="layui-main">
             <div class="admin-login-box">
                 <a class="logo" style="left: 0;" href="http://beginner.zhengjinfan.cn/demo/beginner_admin/">
-                    <span style="font-size: 16px;">工作室活动记录管理系统</span>
+                    <span style="font-size: 16px;">工作室管理系统</span>
                 </a>
                 <div class="admin-side-toggle">
                     <i class="fa fa-bars" aria-hidden="true"></i>
@@ -154,7 +154,7 @@
     <div class="layui-footer footer footer-demo" id="admin-footer">
         <div class="layui-main">
             <p>2017 &copy;
-                <a href="http://www.mycodes.net/" target="_blank">工作室活动记录管理系统</a>  Studio activity record management system
+                <a href="http://www.mycodes.net/" target="_blank">工作室管理系统</a>  Studio activity record management system
             </p>
         </div>
     </div>

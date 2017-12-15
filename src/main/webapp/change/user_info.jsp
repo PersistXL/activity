@@ -21,7 +21,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="../Admin/plugins/layui/css/layui.css" media="all">
     <script type="text/javascript" src="../Admin/js/jquery.min.js"></script>
-    <script src="../Admin/js/layui.js" charset="utf-8"></script>
+    <script src="../Admin/plugins/layui/layui.js" charset="utf-8"></script>
 
 </head>
 
@@ -43,10 +43,12 @@
                 $("input[name='u_password']").val(data[0]['u_password']);
                 $("input[name='u_sex']").val(data[0]['u_sex']);
                 // $("input[name='u_class']").val(data[0]['u_class']);
-            },"json"
+            }, "json"
         );
     });
 </script>
+
+
 <body>
 <fieldset class="layui-elem-field layui-field-title" style="margin-top: 50px;">
     <legend>个人信息</legend>
@@ -64,19 +66,19 @@
     </fieldset>
 </div>
 <div style="margin-left: 500px;">
-   <%--
-   //使用session获得个人信息
-   <%
-        List list = (List) request.getSession().getAttribute("info");
-        UserBean userBean = (UserBean) list.get(0);
-    %>
-    --%>
-    <form class="layui-form layui-form-pane" action="">
+    <%--
+    //使用session获得个人信息
+    <%
+         List list = (List) request.getSession().getAttribute("info");
+         UserBean userBean = (UserBean) list.get(0);
+     %>
+     --%>
+    <div class="layui-form layui-form-pane">
 
         <div class="layui-form-item">
             <label class="layui-form-label">账号:</label>
             <div class="layui-input-inline">
-                <input  readonly="readonly" type="text" name="u_userid" lay-verify="required"
+                <input readonly="readonly" type="text" name="u_userid" lay-verify="required"
                        autocomplete="off" class="layui-input" value="<%--<%=userBean.getU_userid()%>--%>">
             </div>
         </div>
@@ -101,9 +103,60 @@
                        class="layui-input" readonly="readonly" value="<%--<%=userBean.getU_password()%>--%>">
             </div>
         </div>
-
-    </form>
+        <div style="margin-left: 100px;">
+            <button class="layui-btn layui-btn-normal" id="updatePass">修改密码</button>
+        </div>
+        <div id="password_updata_div" style="display: none;text-align: center;padding: 20px">
+            <div class="layui-form-item">
+                <label class="layui-form-label">新密码</label>
+                <div class="layui-input-block">
+                    <input type="password" id="password" name="password" value="" lay-verify="required"
+                           placeholder="请输入新密码" class="layui-input">
+                    <br/>
+                    <button class="layui-btn layui-btn-normal" id="enter" style="margin-right: 35%">确认修改</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
+<script>
+    layui.use('layer', function () { //独立版的layer无需执行这一句
+        var $ = layui.jquery, layer = layui.layer; //独立版的layer无需执行这一句
 
+        //触发事件
+        $("#updatePass").click(function () {
+            layer.open({
+                type: 1
+                , area: ['25%', '25%']
+                , shade: 0.8
+                , btnAlign: 'c' //按钮居中
+                , id: 'LAY_layuipro' //设定一个id，防止重复弹出
+                , content: $("#password_updata_div")
+            });
+        })
+
+        $("#enter").click(function () {
+            var x = document.getElementById("password");
+            // alert(x);
+            // var psw =  window.sessionStorage.setItem("password",x);
+            // alert()
+            var y = x.value
+            $.post("${pageContext.request.contextPath}/UserServlet?method=updatepsw",
+                {
+                    pass: y
+
+                },
+                function (data) {
+
+                    // psw= window.sessionStorage.setItem("password",x)
+                    // alert(x.value);
+                    // alert("修改密码成功");
+                    location.reload();
+                }
+            );
+        })
+
+    });
+</script>
 </html>

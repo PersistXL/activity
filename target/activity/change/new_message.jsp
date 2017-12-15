@@ -37,6 +37,8 @@
                         "<span><b>活动发布的时间:</b>&nbsp;&nbsp;&nbsp;&nbsp;"+data[i]['e_date']+"</span><br />" +
                         "<span><b>活动主题:</b>&nbsp;&nbsp;&nbsp;&nbsp;"+data[i]['e_motif']+"</span><br />" +
                         "<span><b>活动内容:</b>&nbsp;&nbsp;&nbsp;&nbsp;<br/>&nbsp;&nbsp;&nbsp;&nbsp;"+data[i]['e_theme']+"</span><br />" +
+                            "<button class=\"layui-btn layui-btn-normal\">修改</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+
+                            "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class=\"layui-btn layui-btn-danger\">删除</button>"+
                         "</blockquote>")
                 }
             },"json"
@@ -47,7 +49,6 @@
     <legend>我发布过的活动</legend>
     <div id="aaa">
     </div>
-
 </fieldset>
 </body>
 </html>

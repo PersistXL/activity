@@ -27,4 +27,10 @@ public class UserServiceImpl implements UserService {
     public UserBean username(int u_id) {
         return userDao.username(u_id);
     }
+
+    @Override
+    public void updatepsw(UserBean userBean) throws Exception{
+        userDao.updatepsw(userBean);
+    }
+
 }
