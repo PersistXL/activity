@@ -37,7 +37,7 @@
                         "<span><b>活动发布的时间:</b>&nbsp;&nbsp;&nbsp;&nbsp;"+data[i]['e_date']+"</span><br />" +
                         "<span><b>活动主题:</b>&nbsp;&nbsp;&nbsp;&nbsp;"+data[i]['e_motif']+"</span><br />" +
                         "<span><b>活动内容:</b>&nbsp;&nbsp;&nbsp;&nbsp;<br/>&nbsp;&nbsp;&nbsp;&nbsp;"+data[i]['e_theme']+"</span><br />" +
-                            "<button class=\"layui-btn layui-btn-normal\">修改</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+
+                            "<button class=\"layui-btn layui-btn-normal\" id='updatemessage'>修改</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+
                             "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class=\"layui-btn layui-btn-danger\">删除</button>"+
                         "</blockquote>")
                 }
@@ -45,10 +45,52 @@
         );
     });
 </script>
+<script>
+    layui.use('layer', function () { //独立版的layer无需执行这一句
+        var $ = layui.jquery, layer = layui.layer; //独立版的layer无需执行这一句
+
+        //触发事件
+        $("#updatemessage").click(function () {
+            layer.open({
+                type: 1
+                , area: ['25%', '25%']
+                , shade: 0.8
+                , btnAlign: 'c' //按钮居中
+                , id: 'LAY_layuipro' //设定一个id，防止重复弹出
+                , content: $("#message_updata_div")
+            });
+        })
+
+        $("#enter").click(function () {
+            var x = document.getElementById("password");
+            // alert(x);
+            // var psw =  window.sessionStorage.setItem("password",x);
+            // alert()
+            var y = x.value
+            $.post("${pageContext.request.contextPath}/UserServlet?method=updatepsw",
+                {
+                    pass: y
+
+                },
+                function (data) {
+
+                    // psw= window.sessionStorage.setItem("password",x)
+                    // alert(x.value);
+                    // alert("修改密码成功");
+                    location.reload();
+                }
+            );
+        })
+
+    });
+</script>
 <fieldset class="layui-elem-field site-demo-button">
     <legend>我发布过的活动</legend>
     <div id="aaa">
     </div>
 </fieldset>
+<div id="message_updata_div">
+
+</div>
 </body>
 </html>

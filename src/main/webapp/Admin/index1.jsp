@@ -29,12 +29,12 @@
 </head>
 
 <body>
-<%--<%--%>
-    <%--List list = (List) session.getAttribute("info");--%>
-    <%--if (list == null) {--%>
-        <%--response.sendRedirect(request.getContextPath() + "/index.jsp");--%>
-    <%--} else {--%>
-<%--%>--%>
+<%
+    List list = (List) session.getAttribute("info");
+    if (list == null) {
+        response.sendRedirect(request.getContextPath() + "/index.jsp");
+    } else {
+%>
 <script type="text/javascript">
     //        权限设置
     var rank = 0;
@@ -192,6 +192,6 @@
 </body>
 
 </html>
-<%--<%--%>
-    <%--}--%>
-<%--%>--%>
+<%
+    }
+%>
