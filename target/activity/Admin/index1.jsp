@@ -1,7 +1,7 @@
 <%@ page import="net.sf.json.JSONArray" %>
 <%@ page import="java.util.*" %>
 <%@ page import="com.eu.persistxl.activeity.entity.UserBean" %>
-
+<%@ page import="com.eu.persistxl.activeity.entity.AdminBean" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@page isELIgnored="false" %>
 
@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="plugins/layui/css/layui.css" media="all"/>
     <link rel="stylesheet" href="css/global.css" media="all">
     <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+    <script type="text/javascript" class="nav_script"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="plugins/layui/layui.js"></script>
 
@@ -38,13 +39,24 @@
 <script type="text/javascript">
     //        权限设置
     var rank = 0;
+    //权限设置
+    $.post("${pageContext.request.contextPath}/UserServlet?method=rank",
+        function (data) {
+            rank = data[0].rank;
+            alert(rank)
+            var src = "${baseurl}/Admin/datas/nav" + rank + ".js";
+            $(".nav_script").attr({src: src});
+        },"json"
+    )
+
     <%--<%--%>
-    <%--if (session.getAttribute("identity") == "student") {--%>
-        <%--StudentBean studentBean = (StudentBean) list.get(0);--%>
+    <%--if (session.getAttribute("identity") == "user") {--%>
+        <%--UserBean userBean = (UserBean) list.get(0);--%>
 
     <%--%>--%>
-    <%--rank = <%=studentBean.getS_rank()%>--%>
-    rank = 1;
+    <%--rank = <%=userBean.getU_rank()%>--%>
+
+    // rank = 1;
 
     <%--<%--%>
     <%--}  else if (session.getAttribute("identity") == "teacher") {--%>
@@ -53,15 +65,10 @@
         <%--rank = <%=teacherBean.getT_rank()%>--%>
 
     <%--<%--%>
-        <%--} else if (session.getAttribute("identity") == "admin") {--%>
-           <%--AdminBean adminBean=(AdminBean) list.get(0);--%>
-     <%--%>--%>
-            <%--rank = <%=adminBean.getA_trank()%>--%>
-    <%--<%--%>
     <%--}--%>
     <%--%>--%>
 </script>
-<script type="text/javascript" src="datas/nav.js"></script>
+<script type="text/javascript" src="datas/nav1.js"></script>
 <script src="js/index.js"></script>
 
 <div class="layui-layout layui-layout-admin">
@@ -80,12 +87,12 @@
                     <a href="javascript:;" class="admin-header-user">
 
                         <%--<%--%>
-                            <%--if (session.getAttribute("identity") == "student") {--%>
-                                <%--StudentBean studentBean = (StudentBean) list.get(0);--%>
+                            <%--if (session.getAttribute("identity") == "user") {--%>
+                                <%--UserBean userBean= (UserBean) list.get(0);--%>
                         <%--%>--%>
                         <img src="images/0.jpg"/>
-                        <span>管理员</span>
-
+                        <%--<span><%=userBean.getU_username()%></span>--%>
+                            <span>管理员</span>
 
                         <%--<%--%>
                         <%--} else if (session.getAttribute("identity") == "teacher") {--%>

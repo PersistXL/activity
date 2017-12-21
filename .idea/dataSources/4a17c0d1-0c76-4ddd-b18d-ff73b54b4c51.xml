@@ -912,91 +912,141 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="230" parent="2" name="evaluate">
+    <table id="230" parent="2" name="admin">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="231" parent="2" name="user">
+    <table id="231" parent="2" name="evaluate">
       <Engine>InnoDB</Engine>
     </table>
-    <column id="232" parent="230" name="e_id">
+    <table id="232" parent="2" name="user">
+      <Engine>InnoDB</Engine>
+    </table>
+    <column id="233" parent="230" name="a_id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="233" parent="230" name="e_userid">
+    <column id="234" parent="230" name="a_uid">
       <Position>2</Position>
-      <DataType>int(11)|0</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="234" parent="230" name="e_motif">
-      <Position>3</Position>
-      <DataType>varchar(100)|0</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="235" parent="230" name="e_theme">
-      <Position>4</Position>
-      <DataType>varchar(5000)|0</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="236" parent="230" name="e_date">
-      <Position>5</Position>
-      <DataType>varchar(255)|0</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="237" parent="230" name="e_img">
-      <Position>6</Position>
-      <DataType>varchar(255)|0</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="238" parent="230" name="e_username">
-      <Position>7</Position>
       <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="235" parent="230" name="a_username">
+      <Position>3</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="236" parent="230" name="a_password">
+      <Position>4</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="237" parent="230" name="a_sex">
+      <Position>5</Position>
+      <DataType>varchar(2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="238" parent="230" name="a_rank">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;2&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
     <key id="239" parent="230" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>e_id</ColNames>
+      <ColNames>a_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="240" parent="231" name="u_id">
+    <column id="240" parent="231" name="e_id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="241" parent="231" name="u_userid">
+    <column id="241" parent="231" name="e_userid">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="242" parent="231" name="e_motif">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="243" parent="231" name="e_theme">
+      <Position>4</Position>
+      <DataType>varchar(5000)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="244" parent="231" name="e_date">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="245" parent="231" name="e_img">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="246" parent="231" name="e_username">
+      <Position>7</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="247" parent="231" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>e_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="248" parent="232" name="u_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="249" parent="232" name="u_userid">
       <Position>2</Position>
       <DataType>varchar(18)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="242" parent="231" name="u_username">
+    <column id="250" parent="232" name="u_username">
       <Position>3</Position>
       <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="243" parent="231" name="u_password">
+    <column id="251" parent="232" name="u_password">
       <Position>4</Position>
       <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="244" parent="231" name="u_sex">
+    <column id="252" parent="232" name="u_sex">
       <Position>5</Position>
       <DataType>varchar(2)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="245" parent="231" name="u_img">
+    <column id="253" parent="232" name="u_img">
       <Position>6</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="246" parent="231" name="PRIMARY">
+    <column id="254" parent="232" name="u_rank">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="255" parent="232" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>u_id</ColNames>
       <Primary>1</Primary>

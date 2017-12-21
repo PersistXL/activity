@@ -13,7 +13,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.swing.*;
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  *
@@ -42,6 +44,8 @@ public class UserServlet extends HttpServlet {
             username(req, resp);
         }else if (method.equals("updatepsw")){
             updatepsw(req,resp);
+        }else if (method.equals("rank")){
+            rank(req,resp);
         }
     }
 
@@ -78,6 +82,15 @@ public class UserServlet extends HttpServlet {
         request.getSession().removeAttribute("info");
         request.getSession().removeAttribute("err");
         request.getSession().removeAttribute("identity");
+    }
+
+    protected void rank(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        List<UserBean> list  = (List<UserBean>) request.getSession().getAttribute("info");
+        String rank = list.get(0).getU_rank();
+        Map<String,Object> map = new HashMap<String, Object>();
+        map.put("rank",rank);
+        JSONArray jsonArray = JSONArray.fromObject(map);
+        response.getWriter().print(jsonArray);
     }
 
     protected void username(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

@@ -10,6 +10,7 @@ public class UserBean {
     private String u_password;
     private String u_sex;
     private String u_img;
+    private String u_rank;
 
     @Override
     public String toString() {
@@ -20,7 +21,16 @@ public class UserBean {
                 ", u_password='" + u_password + '\'' +
                 ", u_sex='" + u_sex + '\'' +
                 ", u_img='" + u_img + '\'' +
+                ", u_rank='" + u_rank + '\'' +
                 '}';
+    }
+
+    public String getU_rank() {
+        return u_rank;
+    }
+
+    public void setU_rank(String u_rank) {
+        this.u_rank = u_rank;
     }
 
     public int getU_id() {

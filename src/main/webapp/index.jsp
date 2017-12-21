@@ -21,7 +21,7 @@
 			<div class="top-login">
 				<span><img src="change/images/group.png" alt=""/></span>
 			</div>
-			<h1>登录</h1>
+			<h1>工作室活动记录管理系统</h1>
 			<div class="login-top">
 			<form action="${pageContext.request.contextPath}/UserServlet?method=login"
 				  class="login-form fv-form fv-form-bootstrap" method="post" id="loginForm"

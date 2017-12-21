@@ -20,7 +20,9 @@
     <script type="text/javascript" src="../Admin/js/jquery.js"></script>
     <script src="../Admin/plugins/layui/layui.js" charset="utf-8"></script>
     <script type="text/javascript" src="../Admin/js/jquery.min.js"></script>
-    <script src="../Admin/js/layui.js" charset="utf-8"></script>
+    <script src="../Admin/plugins/layui/layui.js" charset="utf-8"></script>
+
+    <script type="text/javascript" src="../Admin/js/jquery.min.js"></script>
 </head>
 <body>
 <%--//使用ajax输出从后台获取的信息--%>
@@ -37,20 +39,44 @@
                         "<span><b>活动发布的时间:</b>&nbsp;&nbsp;&nbsp;&nbsp;"+data[i]['e_date']+"</span><br />" +
                         "<span><b>活动主题:</b>&nbsp;&nbsp;&nbsp;&nbsp;"+data[i]['e_motif']+"</span><br />" +
                         "<span><b>活动内容:</b>&nbsp;&nbsp;&nbsp;&nbsp;<br/>&nbsp;&nbsp;&nbsp;&nbsp;"+data[i]['e_theme']+"</span><br />" +
-                            "<button class=\"layui-btn layui-btn-normal\" id='updatemessage'>修改</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+
-                            "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class=\"layui-btn layui-btn-danger\">删除</button>"+
+                        "<div class=\"layui-btn layui-btn-normal\" id=\"updatemessage\" onclick='update(\"+data[i][e_id]+\")'>修改</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+
+                        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class=\"layui-btn layui-btn-danger\">删除</button>"+
                         "</blockquote>")
+
                 }
+
             },"json"
+
         );
+
     });
+
 </script>
 <script>
-    layui.use('layer', function () { //独立版的layer无需执行这一句
+    function update() {
+        layui.use('layer', function () { //独立版的layer无需执行这一句
+            var $ = layui.jquery, layer = layui.layer; //独立版的layer无需执行这一句
+
+            //触发事件
+            $("#updatemessage").click(function () {
+                // alert(1111)
+                layer.open({
+                    type: 1
+                    , area: ['25%', '25%']
+                    , shade: 0.8
+                    , btnAlign: 'c' //按钮居中
+                    , id: 'LAY_layuipro' //设定一个id，防止重复弹出
+                    , content: $("#message_updata_div")
+                });
+            })
+        });
+    }
+    /*layui.use('layer', function () { //独立版的layer无需执行这一句
         var $ = layui.jquery, layer = layui.layer; //独立版的layer无需执行这一句
 
         //触发事件
         $("#updatemessage").click(function () {
+            alert(1111)
             layer.open({
                 type: 1
                 , area: ['25%', '25%']
@@ -59,15 +85,15 @@
                 , id: 'LAY_layuipro' //设定一个id，防止重复弹出
                 , content: $("#message_updata_div")
             });
-        })
+        })*/
 
-        $("#enter").click(function () {
+      /*  $("#enter").click(function () {
             var x = document.getElementById("password");
             // alert(x);
             // var psw =  window.sessionStorage.setItem("password",x);
             // alert()
             var y = x.value
-            $.post("${pageContext.request.contextPath}/UserServlet?method=updatepsw",
+            $.post("/UserServlet?method=updatepsw",
                 {
                     pass: y
 
@@ -80,17 +106,25 @@
                     location.reload();
                 }
             );
-        })
+        })*/
 
-    });
+    // });
 </script>
 <fieldset class="layui-elem-field site-demo-button">
     <legend>我发布过的活动</legend>
     <div id="aaa">
     </div>
 </fieldset>
-<div id="message_updata_div">
-
+<div id="message_updata_div" style="display: none;text-align: center;padding: 20px">
+    <div class="layui-form-item">
+        <label class="layui-form-label">新密码</label>
+        <div class="layui-input-block">
+            <input type="password" id="password" name="password" value="" lay-verify="required"
+                   placeholder="请输入新密码" class="layui-input">
+            <br/>
+            <button class="layui-btn layui-btn-normal" id="enter" style="margin-right: 35%">确认修改</button>
+        </div>
+    </div>
 </div>
 </body>
 </html>
