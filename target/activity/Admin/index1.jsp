@@ -43,7 +43,7 @@
     $.post("${pageContext.request.contextPath}/UserServlet?method=rank",
         function (data) {
             rank = data[0].rank;
-            alert(rank)
+            // alert(rank)
             var src = "${baseurl}/Admin/datas/nav" + rank + ".js";
             $(".nav_script").attr({src: src});
         },"json"

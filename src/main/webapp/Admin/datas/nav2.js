@@ -7,7 +7,7 @@ var navs2 = [{
     "children": [{
         "title": "个人信息详情",
         "icon": " fa fa-id-card",
-        "href": "Admin_StudentInfo.jsp"
+        "href": "../change/user_info.jsp"
     }]
 }, {
     "title": "用户信息管理",
@@ -16,7 +16,11 @@ var navs2 = [{
     "children": [{
         "title": "查看用户详情",
         "icon": "fa fa-address-book-o",
-        "href": "Admin_TeacherInfo.jsp"
+        "href": "../change/user.jsp"
+    }, {
+        "title": "查看活动详情",
+        "icon": " fa fa-envelope",
+        "href": "../change/active.jsp"
     }]
 }, {
     "title": "信息交互",
@@ -25,11 +29,11 @@ var navs2 = [{
     "children": [{
         "title": "发布任务",
         "icon": "fa-check-square-o",
-        "href": "Admin_StudentScore.jsp"
+        "href": "../change/post_message.jsp"
     }, {
         "title": "交互平台",
         "icon": " fa fa-envelope",
-        "href": "Contact_us.html"
+        "href": "../change/seachMessag.jsp"
     }]
 },{
     "title": "关于我们",
@@ -38,11 +42,11 @@ var navs2 = [{
     "children": [{
         "title": "我们的简介",
         "icon": "&#xe641;",
-        "href": "asd.html"
+        "href": "../change/about.jsp"
     }, {
         "title": "联系我们",
         "icon": " fa fa-envelope",
-        "href": "Contact_us.html"
+        "href": "../change/contact_us.jsp"
     }]
 }
 ];
