@@ -1,7 +1,6 @@
 <%@ page import="net.sf.json.JSONArray" %>
 <%@ page import="java.util.*" %>
 <%@ page import="com.eu.persistxl.activeity.entity.UserBean" %>
-<%@ page import="com.eu.persistxl.activeity.entity.AdminBean" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@page isELIgnored="false" %>
 
@@ -18,7 +17,6 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="format-detection" content="telephone=no">
-
     <link rel="stylesheet" href="plugins/layui/css/layui.css" media="all"/>
     <link rel="stylesheet" href="css/global.css" media="all">
     <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
@@ -91,7 +89,7 @@
                                 <%--UserBean userBean= (UserBean) list.get(0);--%>
                         <%--%>--%>
                         <img src="images/0.jpg"/>
-                        <%--<span><%=userBean.getU_username()%></span>--%>
+                        <%--<span><%=userBean.getU_username()=="2"%></span>--%>
                             <span>管理员</span>
 
                         <%--<%--%>
