@@ -3,6 +3,7 @@ package com.eu.persistxl.activeity.servlet;
 import com.eu.persistxl.activeity.entity.UserBean;
 import com.eu.persistxl.activeity.service.AdminService;
 import com.eu.persistxl.activeity.service.impl.AdminServiceImpl;
+import net.sf.json.JSONArray;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -10,6 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.List;
 
 /**
  * @author 李昕励 ${date}
@@ -62,7 +64,11 @@ public class AdminServlet extends HttpServlet {
     private void findUserToId(HttpServletRequest request, HttpServletResponse response) {
     }
 
-    private void Admin_UserInfo(HttpServletRequest request, HttpServletResponse response) {
+    private void Admin_UserInfo(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        List<UserBean> userBeans=adminService.Admin_UserInfo();
+        JSONArray jsonArray=JSONArray.fromObject(userBeans);
+        System.out.println(jsonArray);
+        response.getWriter().print(jsonArray);
     }
 
 }

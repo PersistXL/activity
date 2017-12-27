@@ -62,14 +62,14 @@
                                         $("#aa").append(
                                             " <tr> <th><input type='checkbox' ></th>"
                                             + "<th>" + (i + 1) + "</th>"
-                                            + "<th>" + data[i]['a_uid'] + "</th>"
-                                            + "<th>" + data[i]['a_username'] + "</th>"
+                                            + "<th>" + data[i]['u_userid'] + "</th>"
+                                            + "<th>" + data[i]['u_username'] + "</th>"
                                             + "<th>******</th>" + "</th>"
-                                            + "<th>" + data[i]['a_sex'] + "</th>"
-                                            + "<th>" + data[i]['a_rank'] +
+                                            + "<th>" + data[i]['u_sex'] + "</th>"
+                                            + "<th>" + data[i]['u_rank'] +
                                             "<td>" +
-                                            "<a  class='layui-btn layui-btn-mini' onclick='updateUser("+data[i]['a_uid']+")'>编辑</a>&nbsp;&nbsp;" +
-                                            "<a  data-id='1' data-opt='del' class='layui-btn layui-btn-danger layui-btn-mini' onclick='deleteUser("+data[i]['s_id']+")'>删除</a>"
+                                            "<a  class='layui-btn layui-btn-mini' onclick='updateUser("+data[i]['u_id']+")'>编辑</a>&nbsp;&nbsp;" +
+                                            "<a  data-id='1' data-opt='del' class='layui-btn layui-btn-danger layui-btn-mini' onclick='deleteUser("+data[i]['u_id']+")'>删除</a>"
                                             + "</td>" + "</tr>")
                                     }
 
