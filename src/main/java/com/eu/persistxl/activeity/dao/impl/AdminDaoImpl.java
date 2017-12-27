@@ -24,4 +24,11 @@ public class AdminDaoImpl extends BaseDaoutil implements AdminDao  {
         List<UserBean> list = super.query(sql, null, UserBean.class);
         return list != null && list.size() > 0 ? list : null;
     }
+
+    @Override
+    public void Admin_deleteInfo(int u_id) {
+        String sql = "delete from user where u_id = ?;";
+        Object[] num = {u_id};
+        super.update(sql, num);
+    }
 }

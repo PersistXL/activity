@@ -105,10 +105,10 @@
                             );
                         }
 
-                        function deleteUser(a_uid) {
+                        function deleteUser(u_id) {
                             $.post("${pageContext.request.contextPath}/AdminServlet?method=Admin_deleteInfo",
                                 {
-                                    a_uid:a_uid
+                                    u_id:u_id
                                 },
                                 function (data,status) {
                                     layer.confirm('是否删除', {icon: 3, title:'删除'}, function(index){

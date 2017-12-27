@@ -59,6 +59,8 @@ public class AdminServlet extends HttpServlet {
     }
 
     private void Admin_deleteInfo(HttpServletRequest request, HttpServletResponse response) {
+        int u_id= Integer.parseInt(request.getParameter("u_id"));
+        adminService.Admin_deleteInfo(u_id);
     }
 
     private void findUserToId(HttpServletRequest request, HttpServletResponse response) {

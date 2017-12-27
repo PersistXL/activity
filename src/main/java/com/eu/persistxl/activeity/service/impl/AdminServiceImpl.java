@@ -31,4 +31,9 @@ public class AdminServiceImpl implements AdminService {
         }
         return null;
     }
+
+    @Override
+    public void Admin_deleteInfo(int u_id) {
+        adminDao.Admin_deleteInfo(u_id);
+    }
 }

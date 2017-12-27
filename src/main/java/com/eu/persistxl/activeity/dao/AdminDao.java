@@ -12,4 +12,6 @@ public interface AdminDao {
     void Admin_addInfo(UserBean userBean);
 
     List<UserBean> Admin_UserInfo();
+
+    void Admin_deleteInfo(int u_id);
 }
