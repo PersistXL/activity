@@ -43,7 +43,16 @@ public class AdminServlet extends HttpServlet {
         }
     }
 
-    private void Admin_updateInfo(HttpServletRequest request, HttpServletResponse response) {
+    private void Admin_updateInfo(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        UserBean userBean=new UserBean();
+        userBean.setU_userid(request.getParameter("u_userid1"));
+        userBean.setU_username(request.getParameter("u_username1"));
+        userBean.setU_password(request.getParameter("u_password1"));
+        userBean.setU_sex(request.getParameter("u_sex1"));
+        userBean.setU_rank(request.getParameter("u_rank1"));
+        adminService.Admin_updateInfo(userBean);
+        System.out.println(userBean);
+        response.sendRedirect(request.getContextPath()+"/change/user.jsp");
     }
 
     private void Admin_addInfo(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

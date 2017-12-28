@@ -25,4 +25,6 @@ public interface AdminService {
      根据用户的id查询用户
      * */
     List<UserBean> findUserToId(int u_id);
+
+    void Admin_updateInfo(UserBean userBean);
 }

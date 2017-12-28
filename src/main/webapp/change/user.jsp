@@ -198,7 +198,7 @@
             <input type="hidden" name="u_id">
             <label class="layui-form-label">用户名</label>
             <div class="layui-input-inline">
-                <input  style="background:#F6F6F6"   name="u_userid1"  autocomplete="off" class="layui-input">
+                <input  style="background:#F6F6F6"   name="u_userid1"  autocomplete="off" disabled="true" class="layui-input">
             </div>
         </div>
         <div class="layui-form-item">
@@ -206,12 +206,12 @@
             <div class="layui-input-inline">
                 <input  style="background:#F6F6F6"   name="u_username1"  autocomplete="off" class="layui-input">
             </div>
+        </div>
         <div class="layui-form-item">
             <label class="layui-form-label">密码</label>
             <div class="layui-input-inline">
                 <input  style="background:#F6F6F6" type="text"   name="u_password1"  autocomplete="off" class="layui-input">
             </div>
-        </div>
         </div>
         <div class="layui-form-item">
             <label class="layui-form-label">性别</label>

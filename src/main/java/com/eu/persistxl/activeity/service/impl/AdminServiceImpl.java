@@ -46,4 +46,9 @@ public class AdminServiceImpl implements AdminService {
         }
         return null;
     }
+
+    @Override
+    public void Admin_updateInfo(UserBean userBean) {
+        adminDao.Admin_updateInfo(userBean);
+    }
 }
