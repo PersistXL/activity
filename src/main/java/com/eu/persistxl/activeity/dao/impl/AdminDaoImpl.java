@@ -31,4 +31,12 @@ public class AdminDaoImpl extends BaseDaoutil implements AdminDao  {
         Object[] num = {u_id};
         super.update(sql, num);
     }
+
+    @Override
+    public List<UserBean> findUserToId(int u_id) {
+        String sql = "select * from user where u_id = ?;";
+        Object []  num={u_id};
+        List<UserBean> list = super.query(sql, num, UserBean.class);
+        return list != null && list.size() > 0 ? list : null;
+    }
 }

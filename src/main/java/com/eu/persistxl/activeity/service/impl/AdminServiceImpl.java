@@ -36,4 +36,14 @@ public class AdminServiceImpl implements AdminService {
     public void Admin_deleteInfo(int u_id) {
         adminDao.Admin_deleteInfo(u_id);
     }
+
+    @Override
+    public List<UserBean> findUserToId(int u_id) {
+        try {
+            return adminDao.findUserToId(u_id);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 }

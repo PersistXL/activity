@@ -14,4 +14,6 @@ public interface AdminDao {
     List<UserBean> Admin_UserInfo();
 
     void Admin_deleteInfo(int u_id);
+
+    List<UserBean> findUserToId(int u_id);
 }

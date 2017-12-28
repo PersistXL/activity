@@ -17,6 +17,12 @@ public interface AdminService {
      查询用户的信息
      * */
     List<UserBean> Admin_UserInfo();
-
+    /**
+     删除用户信息
+     * */
     void Admin_deleteInfo(int u_id);
+    /**
+     根据用户的id查询用户
+     * */
+    List<UserBean> findUserToId(int u_id);
 }

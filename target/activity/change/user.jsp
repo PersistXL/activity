@@ -79,22 +79,23 @@
 
                         });
 
-                        function updateUser (a_uid) {
+                        function updateUser (u_id) {
                             $.post("${pageContext.request.contextPath}/AdminServlet?method=findUserToId",
                                 {
-                                    a_uid:a_uid
+                                    u_id:u_id
                                 },
                                 function (data,status) {
-                                    $("input[name='s_studentid1']").val(data[0]['s_studentid']);
-                                    $("input[name='s_username1']").val(data[0]['s_username']);
-                                    $("input[name='s_password1']").val(data[0]['s_password']);
-                                    $("input[name='s_sex1']").val(data[0]['s_sex']);
-                                    $("input[name='s_id']").val(data[0]['s_id']);
-                                    $("input[name='s_class1']").val(data[0]['s_class']);
+                                // alert(111)
+                                    $("input[name='u_userid1']").val(data[0]['u_userid']);
+                                    $("input[name='u_username1']").val(data[0]['u_username']);
+                                    $("input[name='u_password1']").val(data[0]['u_password']);
+                                    $("input[name='u_sex1']").val(data[0]['u_sex']);
+                                    $("input[name='u_id1']").val(data[0]['u_id']);
+                                    $("input[name='u_rank1']").val(data[0]['u_rank']);
 
                                     layer.open({
                                         type: 1,
-                                        title: '添加用户信息',
+                                        title: '修改用户信息',
                                         area: ['360px', '400px'],
                                         skin: 'yourclass',
                                         content: $('#user_updata_div')
@@ -194,37 +195,37 @@
         <div style="width: 20px;"></div>
         <div class="huan_a"></div>
         <div class="layui-form-item">
-            <input type="hidden" name="s_id">
-            <label class="layui-form-label">学号</label>
+            <input type="hidden" name="u_id">
+            <label class="layui-form-label">用户名</label>
             <div class="layui-input-inline">
-                <input  style="background:#F6F6F6"   name="s_studentid1"  autocomplete="off" class="layui-input">
+                <input  style="background:#F6F6F6"   name="u_userid1"  autocomplete="off" class="layui-input">
             </div>
         </div>
         <div class="layui-form-item">
             <label class="layui-form-label">姓名</label>
             <div class="layui-input-inline">
-                <input  style="background:#F6F6F6"   name="s_username1"  autocomplete="off" class="layui-input">
+                <input  style="background:#F6F6F6"   name="u_username1"  autocomplete="off" class="layui-input">
             </div>
-
+        <div class="layui-form-item">
+            <label class="layui-form-label">密码</label>
+            <div class="layui-input-inline">
+                <input  style="background:#F6F6F6" type="text"   name="u_password1"  autocomplete="off" class="layui-input">
+            </div>
+        </div>
         </div>
         <div class="layui-form-item">
             <label class="layui-form-label">性别</label>
             <div class="layui-input-inline">
-                <input  style="background:#F6F6F6"   name="s_sex1"  autocomplete="off" class="layui-input">
+                <input  style="background:#F6F6F6"   name="u_sex1"  autocomplete="off" class="layui-input">
             </div>
         </div>
         <div class="layui-form-item">
-            <label class="layui-form-label">班级</label>
+            <label class="layui-form-label">权限</label>
             <div class="layui-input-inline">
-                <input  style="background:#F6F6F6"   name="s_class1"  autocomplete="off" class="layui-input">
+                <input  style="background:#F6F6F6"   name="u_rank1"  autocomplete="off" class="layui-input">
             </div>
         </div>
-        <div class="layui-form-item">
-            <label class="layui-form-label">密码</label>
-            <div class="layui-input-inline">
-                <input  style="background:#F6F6F6" type="text"   name="s_password1"  autocomplete="off" class="layui-input">
-            </div>
-        </div>
+
         <div style="width: 20px; "></div>
         <div class="layui-input-block huan_center">
             <button class="layui-btn" lay-submit="" type="submit"  >立即提交</button>

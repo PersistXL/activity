@@ -63,7 +63,12 @@ public class AdminServlet extends HttpServlet {
         adminService.Admin_deleteInfo(u_id);
     }
 
-    private void findUserToId(HttpServletRequest request, HttpServletResponse response) {
+    private void findUserToId(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        int u_id= Integer.parseInt(request.getParameter("u_id"));
+        List<UserBean> userBeans= adminService.findUserToId(u_id);
+        JSONArray jsonArray = JSONArray.fromObject(userBeans);
+        System.out.println(jsonArray);
+        response.getWriter().print(jsonArray);
     }
 
     private void Admin_UserInfo(HttpServletRequest request, HttpServletResponse response) throws IOException {
