@@ -33,12 +33,12 @@ var navs1 = [{
             "title": "我发布过的活动",
             "icon": "fa-check-square-o",
             "href": "../change/new_message.jsp"
-		},
+		}/*,
             {
                 "title": "查看系统通告",
                 "icon": "fa-check-square-o",
                 "href": "../change/seachMessag.jsp"
-            }
+            }*/
 		]
     },{
     "title": "关于我们",

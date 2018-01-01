@@ -22,7 +22,7 @@ var navs2 = [{
         "icon": " fa fa-envelope",
         "href": "../change/active.jsp"
     }]
-}, {
+}/*, {
     "title": "信息交互",
     "icon": "fa fa-bank",
     "spread": false,
@@ -35,7 +35,7 @@ var navs2 = [{
         "icon": " fa fa-envelope",
         "href": "../change/seachMessag.jsp"
     }]
-},{
+}*/,{
     "title": "关于我们",
     "icon": "fa fa-hand-o-right",
     "spread": false,

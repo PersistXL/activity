@@ -15,7 +15,37 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
+--
+-- Table structure for table `admin`
+--
 
+DROP TABLE IF EXISTS `admin`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `admin` (
+  `a_id` int(11) NOT NULL AUTO_INCREMENT,
+  `a_uid` varchar(20) DEFAULT NULL,
+  `a_username` varchar(20) NOT NULL,
+  `a_password` varchar(50) NOT NULL,
+  `a_sex` varchar(2) DEFAULT NULL,
+  `a_rank` int(11) NOT NULL DEFAULT '2',
+  PRIMARY KEY (`a_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `admin`
+--
+
+LOCK TABLES `admin` WRITE;
+/*!40000 ALTER TABLE `admin` DISABLE KEYS */;
+INSERT INTO `admin` VALUES (1,'admin','管理员','admin','男',2);
+/*!40000 ALTER TABLE `admin` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `evaluate`
+--
 
 DROP TABLE IF EXISTS `evaluate`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
@@ -24,11 +54,12 @@ CREATE TABLE `evaluate` (
   `e_id` int(11) NOT NULL AUTO_INCREMENT,
   `e_userid` int(11) DEFAULT NULL,
   `e_motif` varchar(100) DEFAULT NULL,
-  `e_theme` varchar(255) DEFAULT NULL,
+  `e_theme` varchar(5000) DEFAULT NULL,
   `e_date` varchar(255) DEFAULT NULL,
   `e_img` varchar(255) DEFAULT NULL,
+  `e_username` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`e_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=48 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +68,7 @@ CREATE TABLE `evaluate` (
 
 LOCK TABLES `evaluate` WRITE;
 /*!40000 ALTER TABLE `evaluate` DISABLE KEYS */;
-INSERT INTO `evaluate` VALUES (1,1,NULL,'154561351',NULL,NULL),(2,2,NULL,'asdfas',NULL,NULL),(3,1,NULL,'a1dfvaasd','2017-12-8 11:43:52',NULL),(4,2,NULL,'sdf','2017-12-8 12:27:49',NULL),(5,2,NULL,'dsfgsd','2017-12-8 12:31:59',NULL),(29,1,'sdaf','sdaf','2017-12-8 19:1:21',NULL),(30,1,'111111','sdaf','2017-12-8 19:2:45',NULL),(31,1,'111','1111','2017-12-8 19:4:27',NULL),(32,1,'111','1111dsdsdf','2017-12-8 19:5:47',NULL),(33,1,'dfg','dfgs','2017-12-8 19:22:42',NULL),(34,1,'asdf','asdf','2017-12-8 19:25:0',NULL),(35,1,'1111','111212121','2017-12-8 19:29:5',NULL),(36,1,'weqwqw','qqwqw','2017-12-8 19:32:34',NULL),(37,1,'weqwqw','qqwqw','2017-12-8 19:32:40',NULL),(38,1,'weqwqw','qqwqw','2017-12-8 19:32:40',NULL),(39,1,'weqwqw','qqwqw','2017-12-8 19:32:40',NULL),(40,1,'weqwqw','qqwqw','2017-12-8 19:32:41',NULL),(41,1,'weqwqw','qqwqw','2017-12-8 19:32:41',NULL),(42,1,'weqwqw','qqwqw','2017-12-8 19:32:41',NULL),(43,1,'weqwqw','qqwqw','2017-12-8 19:32:41',NULL),(44,1,'dasdsa','dsadas','2017-12-8 19:33:12',NULL),(45,1,'wqwq','qawq','2017-12-8 19:34:52',NULL),(46,1,'drrgwedr','ggergewrgwe','2017-12-8 19:36:37',NULL),(47,1,'fgdtfh','rtftjrjed','2017-12-8 19:37:22',NULL);
+INSERT INTO `evaluate` VALUES (1,1,'工作室学习经验分享会','<p>同学们分享这一周以来所有的学习内容以及学习到了哪些知识,</p>','2017-12-10 17:27:20',NULL,'超级管理员'),(2,1,'sdafas','sdfgasdgf','2017-12-10 17:30:55',NULL,'超级管理员'),(3,1,'工作室学习经验分享会','<p><span>同学们分享这一周以来所有的学习内容以及学习到了哪些知识,</span><span>同学们分享这一周以来所有的学习内容以及学习到了哪些知识,</span><span>同学们分享这一周以来所有的学习内容以及学习到了哪些知识,</span><span>同学们分享这一周以来所有的学习内容以及学习到了哪些知识,</span><span>同学们分享这一周以来所有的学习内容以及学习到了哪些知识,</span><span>同学们分享这一周以来所有的学习内容以及学习到了哪些知识,</span></p>','2017-12-10 17:36:58',NULL,'超级管理员'),(4,4,'招新见面会','在2017年9月12日,对于大二学生的招新活动见面会,并且进行了,笔试考核<img src=\"http://localhost:8080/Admin/plugins/layui/images/face/0.gif\" alt=\"[微笑]\">','2017-12-15 14:54:35',NULL,'马欢欢'),(5,1,'1263','123456','2017-12-15 16:26:13',NULL,'超级管理员'),(6,1,'4654566','<b>sdfg<i>werfwesr<u>gddfg<img src=\"http://localhost:8080/Admin/plugins/layui/images/face/41.gif\" alt=\"[悲伤]\"></u></i></b>','2017-12-15 16:26:42',NULL,'超级管理员');
 /*!40000 ALTER TABLE `evaluate` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -55,8 +86,9 @@ CREATE TABLE `user` (
   `u_password` varchar(20) NOT NULL,
   `u_sex` varchar(2) NOT NULL,
   `u_img` varchar(255) DEFAULT NULL,
+  `u_rank` int(11) DEFAULT '1',
   PRIMARY KEY (`u_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -65,7 +97,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES (1,'admin','超级管理员','admin','男',NULL),(2,'a','a','a','q','q');
+INSERT INTO `user` VALUES (1,'admin','超级管理员','admin','男',NULL,2),(3,'15610606150651','李昕励','057815','男',NULL,1),(4,'15610409153608','马欢欢','950525','男',NULL,1),(5,'15610903150627','毛良伟','123456','男',NULL,1),(6,'user','超级用户','user','女',NULL,1);
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -78,4 +110,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-12-10 12:38:54
+-- Dump completed on 2017-12-28 20:50:52

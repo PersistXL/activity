@@ -40,7 +40,7 @@
                 <table class="site-table table-hover">
                     <thead>
                     <tr>
-                        <th><input type="checkbox" id="selected-all"></th>
+                        <th><input type="checkbox" id="selected-all" ></th>
                         <th>ID</th>
                         <th>遍号</th>
                         <th>名字</th>
