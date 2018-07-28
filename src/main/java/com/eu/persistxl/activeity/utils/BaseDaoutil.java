@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by 马欢欢 on 2017/5/18.
+ * Created by persistXL on 2017/5/18.
  */
 @SuppressWarnings("ALL")
 public class BaseDaoutil {
@@ -84,6 +84,76 @@ public class BaseDaoutil {
         }finally {
             ConnUtil.close(rs, pstmt, conn);
 
+        }
+        return null;
+    }
+     /**
+     * 查询List方法
+     */
+    public List<Map<String, Object>> query(String sql, Object[] paramsValue) {
+        List<Map<String, Object>> list = new ArrayList<>();
+        //获取连接
+        conn = ConnUtil.getConnextion();
+        try {
+            //创建对象
+            pstmt = conn.prepareStatement(sql);
+            int count = pstmt.getParameterMetaData().getParameterCount();
+            if (paramsValue != null && paramsValue.length > 0) {
+                for (int i = 0; i < paramsValue.length; i++) {
+                    pstmt.setObject(i + 1, paramsValue[i]);
+                }
+            }
+            rs = pstmt.executeQuery();
+            //拿到结果集元数据
+            ResultSetMetaData rsmd = rs.getMetaData();
+            //获取列的个数
+            int culumnCount = rsmd.getColumnCount();
+            while (rs.next()) {
+                Map<String, Object> map = new HashMap<>();
+                for (int i = 0; i < culumnCount; i++) {
+                    map.put(rsmd.getColumnName(i), rs.getObject(i));
+                }
+                list.add(map);
+            }
+            return list;
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            ConnUtil.close(rs, pstmt, conn);
+
+        }
+        return null;
+    }
+
+    /**
+     * 查询返回String类型的值
+     */
+    public String queryS(String sql, Object[] paramsValue) {
+        String string = "";
+        //获取连接
+        conn = ConnUtil.getConnextion();
+        //创建对象
+        try {
+            pstmt = conn.prepareStatement(sql);
+            int count = pstmt.getParameterMetaData().getParameterCount();
+            if (paramsValue != null && paramsValue.length > 0) {
+                for (int i = 0; i < paramsValue.length; i++) {
+                    pstmt.setObject(i + 1, paramsValue[i]);
+                }
+            }
+            rs = pstmt.executeQuery();
+            //拿到结果集元数据
+            ResultSetMetaData rsmd = rs.getMetaData();
+            //获取列的个数
+            int culumnCount = rsmd.getColumnCount();
+            while (rs.next()) {
+                string = rs.getString(1);
+            }
+            return string;
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            ConnUtil.close(rs, pstmt, conn);
         }
         return null;
     }
